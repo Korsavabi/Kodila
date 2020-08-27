@@ -1,0 +1,56 @@
+/* montserrat_black */
+@font-face {
+	font-family: 'Montserrat', sans-serif;
+	src: 
+		url('../fonts/montserrat_black.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/montserrat_black.woff') format('woff'); /* Firefox >= 3.6, any other modern browser */
+    font-weight: 900;
+    font-display: swap;
+    
+}
+/* montserrat_extrabold */
+@font-face {
+	font-family: 'Montserrat', sans-serif;
+	src: 
+		url('../fonts/montserrat_extrabold.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/montserrat_extrabold.woff') format('woff'); /* Firefox >= 3.6, any other modern browser */
+        font-weight: 800;
+        font-display: swap;
+}
+/* montserrat_bold */
+@font-face {
+	font-family: 'Montserrat', sans-serif;
+	src: 
+		url('../fonts/Montserrat/Montserrat-Bold/fonts/montserrat_bold.woff2') format('woff2'), /* Super Modern Browsers */
+        url('../fonts/Montserrat/Montserrat-Bold/fonts/montserrat_bold.woff') format('woff'); /* Firefox >= 3.6, any other modern browser */
+    font-weight: 700; 
+    font-display: swap;
+}
+/* montserrat_semibold */
+@font-face {
+	font-family: 'Montserrat', sans-serif;
+	src:
+		url('../fonts/Montserrat/Montserrat-SemiBold/fonts/montserrat_semibold.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/Montserrat/Montserrat-SemiBold/fonts/montserrat_semibold.woff') format('woff'); /* Firefox >= 3.6, any other modern browser */
+        font-weight: 600;
+        font-display: swap;
+}
+/* montserrat_italic */
+@font-face {
+	font-family: 'Montserrat', sans-serif;
+	src:
+		url('../fonts/Montserrat/Montserrat-Italic/fonts/montserrat_italic.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/Montserrat/Montserrat-Italic/fonts/montserrat_italic.woff') format('woff'); /* Firefox >= 3.6, any other modern browser */
+        font-weight: 500;
+        font-display: swap;
+}
+/* montserrat_medium */
+@font-face {
+	font-family: 'Montserrat', sans-serif;
+	src: 
+		url('../fonts/Montserrat/Montserrat-Medium/fonts/montserrat_medium.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/Montserrat/Montserrat-Medium/fonts/montserrat_medium.woff') format('woff'); /* Firefox >= 3.6, any other modern browser */
+        font-weight: 500;
+        font-display: swap;
+}
+
