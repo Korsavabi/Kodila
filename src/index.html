@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Заголовок страницы</title>
+    <link rel="stylesheet" href="./sass/main.scss" />
   </head>
   <body>
     <!-- Так добавляются фрагменты в главные HTML-файлы страниц.
@@ -19,11 +20,11 @@
       <section class="teacher"></section>
       <section class="guarantee"></section>
       <section class="reviews"></section>
-      <section class="registration"></section>
+      <section class="registration">
+        <include src="./partials/registration.html"></include>
+      </section>
       <section class="contacts"></section>
     </main>
     <footer></footer>
-
-
   </body>
 </html>
