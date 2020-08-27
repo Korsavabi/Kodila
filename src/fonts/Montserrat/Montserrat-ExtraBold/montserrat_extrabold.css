@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'Montserrat ExtraBold';
+	src: url('../fonts/montserrat_extrabold.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/montserrat_extrabold.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/montserrat_extrabold.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/montserrat_extrabold.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/montserrat_extrabold.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/montserrat_extrabold.svg#montserrat_extrabold') format('svg'); /* Chrome < 4, Legacy iOS */
+}
