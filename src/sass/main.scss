@@ -4,10 +4,22 @@
  */
 
 // Стили для файла с примером HTML-фрагмента
+
+// @import './utils/fonts';
+// @import './utils/normalize';
+// @import './utils/variables';
+// @import './base/common';
+// @import './base/container';
+// @import './layout/registration';
+// @import './layout/contacts';
+
+// // @import './example';
+// // @import './layout/registration';
+
 @import './utils/fonts';
-@import './utils/normalize';
 @import './utils/variables';
 @import './base/common';
 @import './base/container';
-@import './layout/registration';
-@import './layout/contacts';
+@import './layout/teacher';
+@import './layout/guarantee';
+@import './layout/reviews';
