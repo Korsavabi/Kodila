@@ -27,7 +27,6 @@
 <path  d="M1.385-0.021c-0.157 0-0.284 0.127-0.284 0.284v29.311c0 0.157 0.127 0.284 0.284 0.284s0.284-0.127 0.284-0.284v-29.311c0-0.157-0.127-0.284-0.284-0.284z"></path>
 </symbol>
 <symbol id="icon6" viewBox="0 0 32 32">
-<path fill="#ff6b09" style="fill: var(--color1, #ff6b09)" d="M0 4.87h31.734v22.261h-31.734v-22.261z"></path>
 <path  d="M14.098 8.075h-9.488v0.71h9.488v-0.71z"></path>
 <path  d="M14.098 10.724h-8.068v0.71h8.068v-0.71z"></path>
 <path  d="M14.098 13.373h-9.488v0.71h9.488v-0.71z"></path>
@@ -84,6 +83,9 @@
 <path stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="4.5714" d="M0 2.286h46.857"></path>
 <path stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="4.5714" d="M0 16h46.857"></path>
 <path stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="4.5714" d="M0 29.714h46.857"></path>
+</symbol>
+<symbol id="icon-line" viewBox="0 0 64 32">
+<path d="M0 12.48h64v6.208h-64v-6.208z"></path>
 </symbol>
 </defs>
 </svg>

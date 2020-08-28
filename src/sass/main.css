@@ -1,0 +1,291 @@
+@charset "UTF-8";
+/*
+ * Главный файл стилей.
+ * Все паршалы подключаются сюда.
+ */
+/* montserrat_black */
+@font-face {
+  font-family: 'Montserrat', sans-serif;
+  src: url("../fonts/Montserrat/Montserrat-Black/fonts/montserrat_black.woff2") format("woff2"), url("../fonts/Montserrat/Montserrat-Black/fonts/montserrat_black.woff") format("woff");
+  /* Firefox >= 3.6, any other modern browser */
+  font-weight: 900;
+  font-display: swap;
+}
+
+/* montserrat_extrabold */
+@font-face {
+  font-family: 'Montserrat', sans-serif;
+  src: url("../fonts/Montserrat/Montserrat-ExtraBold/fonts/montserrat_extrabold.woff2") format("woff2"), url("../fonts/Montserrat/Montserrat-ExtraBold/fonts/montserrat_extrabold.woff") format("woff");
+  /* Firefox >= 3.6, any other modern browser */
+  font-weight: 800;
+  font-display: swap;
+}
+
+/* montserrat_bold */
+@font-face {
+  font-family: 'Montserrat', sans-serif;
+  src: url("../fonts/Montserrat/Montserrat-Bold/fonts/montserrat_bold.woff2") format("woff2"), url("../fonts/Montserrat/Montserrat-Bold/fonts/montserrat_bold.woff") format("woff");
+  /* Firefox >= 3.6, any other modern browser */
+  font-weight: 700;
+  font-display: swap;
+}
+
+/* montserrat_semibold */
+@font-face {
+  font-family: 'Montserrat', sans-serif;
+  src: url("../fonts/Montserrat/Montserrat-SemiBold/fonts/montserrat_semibold.woff2") format("woff2"), url("../fonts/Montserrat/Montserrat-SemiBold/fonts/montserrat_semibold.woff") format("woff");
+  /* Firefox >= 3.6, any other modern browser */
+  font-weight: 600;
+  font-display: swap;
+}
+
+/* montserrat_italic */
+@font-face {
+  font-family: 'Montserrat', sans-serif;
+  src: url("../fonts/Montserrat/Montserrat-Italic/fonts/montserrat_italic.woff2") format("woff2"), url("../fonts/Montserrat/Montserrat-Italic/fonts/montserrat_italic.woff") format("woff");
+  /* Firefox >= 3.6, any other modern browser */
+  font-weight: 500;
+  font-display: swap;
+}
+
+/* montserrat_medium */
+@font-face {
+  font-family: 'Montserrat', sans-serif;
+  src: url("../fonts/Montserrat/Montserrat-Medium/fonts/montserrat_medium.woff2") format("woff2"), url("../fonts/Montserrat/Montserrat-Medium/fonts/montserrat_medium.woff") format("woff");
+  /* Firefox >= 3.6, any other modern browser */
+  font-weight: 500;
+  font-display: swap;
+}
+
+body {
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+ul,
+p {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+@media (min-width: 320px) {
+  .container {
+    width: 320px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 768px;
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
+}
+
+.problems {
+  position: relative;
+  background-color: #111518;
+  height: 545px;
+  padding-top: 50px;
+}
+
+.porblems-title {
+  font-style: 900;
+  font-size: 20px;
+  line-height: 1.35;
+  letter-spacing: 3%;
+  color: #ffffff;
+}
+
+.porblems-title-accent {
+  color: #ff6b09;
+}
+
+.problems-list {
+  position: absolute;
+  top: 205px;
+  left: 20px;
+  padding-top: 20px;
+  padding-right: 14px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  background-color: #ffffff;
+  width: 280px;
+  -webkit-filter: drop-shadow(-5px, 8px, 26px rgba(0, 0, 0, 0.04));
+          filter: drop-shadow(-5px, 8px, 26px rgba(0, 0, 0, 0.04));
+}
+
+.problems-list-item {
+  font-style: 800;
+  font-size: 14px;
+  line-height: 1.643;
+  letter-spacing: 8%;
+  color: #ff6b09;
+}
+
+.problems-list-item-text {
+  font-style: 800;
+  font-size: 14px;
+  line-height: 1.643;
+  letter-spacing: 8%;
+  color: #111518;
+}
+
+.work {
+  pading-top: 198px;
+  pading-bottom: 50px;
+}
+
+.work-title {
+  font-style: 900;
+  font-size: 20px;
+  line-height: 1.3;
+  letter-spacing: 3%;
+  color: #111518;
+}
+
+.work-list-item {
+  height: 280px;
+  width: 100%;
+  -webkit-filter: drop-shadow(0px, 8px 26px rgba(0, 0, 0, 0.1));
+          filter: drop-shadow(0px, 8px 26px rgba(0, 0, 0, 0.1));
+}
+
+.work-list-item:not(:nth-last-child(-n + 1)) {
+  margin-bottom: 15px;
+}
+
+.work-list-item-title {
+  font-style: 800;
+  font-size: 14px;
+  line-height: 1.428;
+  letter-spacing: 8%;
+  color: #111518;
+}
+
+.work-list-item-text {
+  font-style: 500;
+  font-size: 12px;
+  line-height: 1.667;
+  letter-spacing: 8%;
+  color: #b9b9b9;
+}
+
+.work-list-item:hover,
+.work-list-item:focus {
+  background-color: #ff6b09;
+}
+
+.work-list-item:hover,
+.work-list-item:focus .work-list-item-title {
+  color: #ffffff;
+}
+
+.work-list-item:hover,
+.work-list-item:focus .work-list-item-text {
+  color: #ffffff;
+}
+
+.work-list-item:hover,
+.work-list-item:focus .work-list-item-second-svg {
+  fill: #ffffff;
+}
+
+.work-list-item:hover,
+.work-list-item:focus .work-list-item-first-svg {
+  fill: #ffffff;
+}
+
+.program {
+  background-color: #111518;
+}
+
+.program-title {
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-style: 900;
+  font-size: 20px;
+  line-height: 1.3;
+  letter-spacing: 3%;
+  margin: 0;
+}
+
+.program-list {
+  width: 206px;
+  margin-left: auto;
+  padding-left: 20px;
+
+}
+
+.program-list-item {
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-style: 800;
+  font-size: 14px;
+  line-height: 2;
+  letter-spacing: 8%;
+  border-left: 1px solid #ffffff;
+}
+
+.program-list-item-list {
+  margin: 0;
+}
+
+.program-list-item-list-item-title {
+  color: #ff6b09;
+  font-family: 'Montserrat', sans-serif;
+  font-style: 800;
+  font-size: 12px;
+  line-height: 1.667;
+  letter-spacing: 8%;
+}
+
+.program-list-item-list-item-text {
+  color: #b9b9b9;
+  font-family: 'Montserrat', sans-serif;
+  font-style: 600;
+  font-size: 12px;
+  line-height: 1.667;
+  letter-spacing: 8%;
+  margin: 0;
+}
+/*# sourceMappingURL=main.css.map */

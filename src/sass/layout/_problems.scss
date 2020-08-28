@@ -1,0 +1,77 @@
+
+.problems {
+  background-color: $black-text-color;
+  height: 545px;
+  padding-top: 50px;
+  counter-reset: section-one;
+
+}
+
+.porblems-title {
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 1.35;
+  letter-spacing: 0.03em;
+  color: $white-text-color;
+  counter-increment: section-one 0;
+
+}
+
+
+.problems-list {
+  position: absolute;
+  counter-reset: section-two;
+  top: 205px;
+  left: 20px;
+  padding-top: 49px;
+  padding-right: 14px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  background-color: $white-background-color;
+  width: 280px;
+
+  box-shadow: -5px 8px 26px rgba(0, 0, 0, 0.04);
+}
+
+
+.problems-list-item {
+  position: relative;
+  list-style-type: none;
+  & + & {
+    margin-top: 39px;
+  }
+  
+  
+}
+
+.problems-list-item::before {
+  counter-increment: section-two;
+  height: 13px;
+  content:  url("./../images/svg/line.svg") "  " counter(section-one) counter(section-two);
+  position: absolute;
+  top: -20px;
+  left: 0px;
+
+
+}
+
+
+.porblems-title-accent {
+  color: $orange-text-color;
+}
+
+.problems-list-item {
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 1.643;
+  letter-spacing: 0.08em;
+  color: $orange-text-color;
+}
+
+.problems-list-item-text {
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 1.643;
+  letter-spacing: 0.08em;
+  color: $black-text-color;
+}
