@@ -6,50 +6,43 @@
     text-align: center;
     padding-top: 50px;
     padding-bottom: 50px;
-}
-
-.registration span {
-    white-space: nowrap;
-}
-
-.span-color {
-    color: $orange-text-color;
-}
-
-.registration-title {
-    margin-bottom: 30px;
-    letter-spacing: 0.03em;
-    font-size: 14px;
-}
-
-.registration-text {
-    font-weight: 600;
-    margin-bottom: 30px;
-    letter-spacing: 0.08em;
-    font-size: 12px;
-}
-
-.registration-form-input {
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 18px;
-    color: #fff;
-    height: 48px;
-    width: 100%;
-    background: transparent;
-    border: none;
-    border: 1px solid #fff;
-}
-
-.registration-form-input:not(:nth-child(-n+1)) {
-    margin-top: 30px;
-}
-
-.registration-form-input::placeholder {
-    color: #fff;
-    font-style: normal;
-    letter-spacing: 0.08em;
-    font-size: 14px;
+    & span {
+        white-space: nowrap;
+    }
+    & .span-color {
+        color: $orange-text-color;
+    }
+    &-title {
+        margin-bottom: 30px;
+        letter-spacing: 0.03em;
+        font-size: 14px;
+    }
+    &-text {
+        font-weight: 600;
+        margin-bottom: 30px;
+        letter-spacing: 0.08em;
+        font-size: 12px;
+    }
+    & .registration-form-input {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 18px;
+        color: #fff;
+        height: 48px;
+        width: 100%;
+        background: transparent;
+        border: none;
+        border: 1px solid #fff;
+    }
+    &-form-input:not(:nth-child(-n+1)) {
+        margin-top: 30px;
+    }
+    &-form-input::placeholder {
+        color: #fff;
+        font-style: normal;
+        letter-spacing: 0.08em;
+        font-size: 14px;
+    }
 }
 
 .btn {
