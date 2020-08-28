@@ -1,0 +1,54 @@
+.program {
+  background-color: $black-background-color;
+}
+
+.program-title {
+  color: $white-text-color;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 1.3;
+  letter-spacing: 0.03em;
+
+  margin: 0;
+}
+
+.program-list {
+  width: 206px;
+  margin-left: auto;
+  padding-left: 20px;
+  border-left: 1px solid $white-text-color;
+}
+
+.program-list-item {
+  color: $white-text-color;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 2;
+  letter-spacing: 0.08em;
+}
+
+.program-list-item-list {
+  margin: 0;
+}
+
+.program-list-item-list-item-title {
+  color: $orange-text-color;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-size: 12px;
+  line-height: 1.667;
+  letter-spacing: 0.08em;
+}
+
+.program-list-item-list-item-text {
+  color: $grey-text-color;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.667;
+  letter-spacing: 0.08em;
+  //   opacity: 50%;
+  margin: 0;
+}

@@ -5,6 +5,7 @@
 
 // Стили для файла с примером HTML-фрагмента
 
+
 // @import './utils/fonts';
 // @import './utils/normalize';
 // @import './utils/variables';
@@ -17,9 +18,18 @@
 // // @import './layout/registration';
 
 @import './utils/fonts';
+
+
 @import './utils/variables';
+@import './utils/fonts';
 @import './base/common';
 @import './base/container';
+
 @import './layout/teacher';
 @import './layout/guarantee';
 @import './layout/reviews';
+
+@import './layout/problems';
+@import './layout/work';
+@import './layout/program';
+
