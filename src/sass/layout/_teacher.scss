@@ -30,12 +30,11 @@
     width: 280px;
     top: 130%;
     left: 0;
-
-    margin-bottom: 20px;
   }
 }
 
 .teacher-list {
+  margin-top: 30px;
 }
 
 .teacher-list-item {
@@ -46,20 +45,20 @@
 
   color: $black-text-color;
 
-  &::after {
-    display: flex;
-    align-items: center;
+  //   &::after {
+  //     display: flex;
+  //     align-items: center;
 
-    color: $orange-text-color;
+  //     color: $orange-text-color;
 
-    position: absolute;
-    content: '';
+  //     position: absolute;
+  //     content: '';
 
-    top: 30%;
-    left: 0;
-    width: 30px;
-    height: 1px;
-  }
+  //     top: 30%;
+  //     left: 0;
+  //     width: 30px;
+  //     height: 1px;
+  //   }
 
   &:not(:last-child) {
     margin-bottom: 15px;
