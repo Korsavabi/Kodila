@@ -1,0 +1,99 @@
+.teacher-title {
+  text-align: start;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 1.3;
+  letter-spacing: 0.03em;
+  margin-bottom: 20px;
+
+  color: $black-text-color;
+}
+
+.teacher-img {
+  margin-bottom: 20px;
+}
+
+.teacher-name {
+  position: relative;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.08em;
+  margin-bottom: 10px;
+
+  color: $black-text-color;
+
+  &::after {
+    position: absolute;
+    content: '';
+    border: 1px solid $grey-text-color;
+    width: 280px;
+    top: 130%;
+    left: 0;
+
+    margin-bottom: 20px;
+  }
+}
+
+.teacher-list {
+}
+
+.teacher-list-item {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.06em;
+
+  color: $black-text-color;
+
+  &::after {
+    display: flex;
+    align-items: center;
+
+    color: $orange-text-color;
+
+    position: absolute;
+    content: '';
+
+    top: 30%;
+    left: 0;
+    width: 30px;
+    height: 1px;
+  }
+
+  &:not(:last-child) {
+    margin-bottom: 15px;
+  }
+}
+
+.teacher-list-item-check-svg {
+  width: 17px;
+  height: 14px;
+  margin-right: 9px;
+}
+
+.teacher-title-text {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.67;
+
+  color: $grey-text-color;
+
+  &:not(:last-child) {
+    margin-bottom: 20px;
+  }
+
+  //   &:last-child {
+  //     margin-bottom: 10px;
+  //   }
+}
+
+.teacher-title-text-link {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.67;
+
+  text-decoration-line: underline;
+
+  color: $accent-color;
+}

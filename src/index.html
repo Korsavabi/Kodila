@@ -8,18 +8,24 @@
   </head>
   <body>
     <!-- Так добавляются фрагменты в главные HTML-файлы страниц.
-    <include src="./partials/example.html"></include>
+    <include src="./partials/example.html"></include> -->
     Скрипт идёт последним в разметке. В нём уже подключен главный SASS-файл.
-    <script src="./index.js"></script> -->
+    <script src="./index.js"></script>
     <header></header>
     <main>
       <section class="hero"></section>
       <section class="problems"></section>
       <section class="work"></section>
       <section class="program"></section>
-      <section class="teacher"></section>
-      <section class="guarantee"></section>
-      <section class="reviews"></section>
+      <section class="teacher">
+        <include src="./partials/teacher.html"></include>
+      </section>
+      <section class="guarantee">
+        <include src="./partials/guarantee.html"></include>
+      </section>
+      <section class="reviews">
+        <include src="./partials/reviews.html"></include>
+      </section>
       <section class="registration">
         <include src="./partials/registration.html"></include>
       </section>
