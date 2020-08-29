@@ -108,3 +108,35 @@
 
   color: $accent-color;
 }
+
+@media (min-width: 768px) {
+  .teacher {
+    padding-top: 50px;
+  }
+
+  .teacher-tablet {
+    display: flex;
+  }
+
+  .teacher-photo-tablet {
+    margin-right: 40px;
+  }
+
+  .teacher-title {
+    font-size: 26px;
+    margin-bottom: 30px;
+  }
+
+  .teacher-info-tablet {
+    padding-top: 62px;
+    width: 361px;
+  }
+
+  .teacher-name {
+    &::after {
+      width: 401px;
+      top: 130%;
+      left: 0;
+    }
+  }
+}
