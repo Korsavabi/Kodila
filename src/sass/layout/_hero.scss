@@ -1,4 +1,10 @@
-
+.hero-line-img{
+    background-image: url("../images/mobile-img/Vector1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 530px;
+    background-position-y: bottom;
+}
 .hero-title{
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
@@ -8,7 +14,7 @@
     
     letter-spacing: 0.03em;
     
-    color: #111518;
+    color: $black-text-color;
     margin-bottom: 30px;
 }
 .hero-text{
@@ -19,18 +25,16 @@ font-size: 14px;
 line-height: 22px;
 
 margin-bottom: 30px;
-// display: flex;
-// align-items: center;
 letter-spacing: 0.08em;
 
-color: #111518;
+color: $black-text-color;
 }
 
 .hero-text-span-light-grey{
-    color: #B9B9B9;
+    color: $grey-text-color;
 }
 .hero-text-span-orange{
-    color: #FF6B09;
+    color: $orange-text-color;
 }
 .hero-bg-img{
     background-repeat: no-repeat;
@@ -47,59 +51,55 @@ color: #111518;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    
 }
+
+
 .hero-list-item{
     width: calc((100% - 30px * 1) / 1);
     display: flex;
+    position: relative;
 
     &::before{
         display: block;
-        contain: "";
-        width: 100px;
-        height: 100px;
-       
+        content: "";
+        width: 60px;
+        height: 60px;
+        border: 2px solid $orange-text-color;
+        margin-right: 15px;
     }
 }
 .hero-list-item-icon{
-    width: 50px;
-    height: 50px;
-    fill: orangered;
-    display: block;
-    border: 2px solid orangered;
-   
-}
-// .hero-icon-user{ 
-//     display: block;
-//     content: "";
-//     background-image: url('../images/svg/icon1.svg');
-//     // // 
-//     // background-repeat: no-repeat;
-   
-// }
+    width: 33.59px;
+    height: 38.79px;
+    fill: #ff6b09;
+    position: absolute;
+    top: 10px;
+    left: 13px;
+} 
 .hero-list-item:not(:last-child){
     margin-bottom: 20px;
     
 }
-
-// .hero-list-item::before{
-//     width: 75px;
-    
-//     content: "";
-   
-//     display: block;
-
-    
-// }
-
 .hero-list-item-text{
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
     line-height: 20px;
-
-
+    position: relative;
     align-items: center;
+    width: 146px;
     letter-spacing: 0.08em;
-
+    &::before{
+        content: "";
+        display: block;
+        width: 40px;
+        height: 4px;
+        background-color: white;
+        transform: rotate(90deg);
+        position: absolute;
+        top: 27px;
+        left: -36px;
+    }
 
 }
