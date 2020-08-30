@@ -1,0 +1,10 @@
+.animation-hover-btn:hover,
+.animation-hover-btn:focus {
+    background-color: $black-background-color;
+    color: $orange-text-color;
+    transform: scale(1.1);
+}
+
+.animation-hover-text:hover {
+    color: $orange-text-color;
+}
