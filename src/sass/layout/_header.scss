@@ -1,11 +1,13 @@
-.header-block{
+.header{
+    padding-top: 30px;
+}
+.header-menu{
     display: flex;
     align-items: center;
-
+    margin-bottom: 20px;
 }
 .header-link{
-    margin-top: 30px;
-    margin-bottom: 20px;
+  
     margin-right: auto;
     z-index: 6;
     & .header-link-logo-white{
@@ -32,7 +34,7 @@
     display: block;
 }
 }
-.header-menu{
+.header-navigation{
     padding-top: 80px;
     padding-bottom: 222px;
     display: flex;
@@ -47,21 +49,18 @@
     justify-content: center;
     flex-wrap: wrap;
 }
-.header-menu{
-    display: flex;
-}
-.header-menu-list{
+.header-navigation-list{
     display: flex;
     flex-direction: column;
     align-items: start;
     margin-bottom: 50px;
 
 }
-.header-menu-list-item-link{
+.header-navigation-list-item-link{
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
     font-size: 20px;
-    line-height: 36px;
+    line-height: 1.8;
     letter-spacing: 0.03em;
     color: $white-text-color;
     &:hover{
@@ -75,6 +74,7 @@
   margin: 0;
   z-index: 3;
   background-color: transparent;
+  height: 40px;
   &:focus {
     outline: none;
   }
@@ -102,4 +102,25 @@
     width: 20px;
     height: 20px;
     fill: white;
+}
+
+@media screen and (min-width: 768px){
+    .header-navigation {
+        padding-top: 159px;
+        padding-bottom: 688px;
+    }
+    .header-navigation-list {
+        margin-bottom: 0;
+    }
+    .header-navigation-list-item:not(:last-child){
+        margin-bottom: 10px;
+    }
+    .header-link-logo{
+        width: 128px;
+        height: 45px;
+    }
+    .header-navigation-list-item-link{
+        font-size: 26px;
+        line-height: 1.808;
+    }
 }

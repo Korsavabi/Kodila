@@ -35,3 +35,19 @@ color: #FFFFFF;
         box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, inset 15px -30px 18px -16px rgba(0,0,0,0.29);
     }
 }
+.button-header-laptop{
+    display: none;
+}
+@media screen and (min-width: 768px){
+    .button{
+        margin: 0;
+    }
+    .button-header{
+        display: none;
+    }
+    .button-header-laptop{
+        display: block;
+        margin: 0;
+        margin-right: 40px;
+    }
+}
