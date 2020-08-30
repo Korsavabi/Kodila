@@ -1,5 +1,8 @@
 .program {
   background-color: $black-background-color;
+  padding-top: 50px;
+  padding-bottom: 440px;
+  position: relative;
 }
 
 .program-title {
@@ -10,7 +13,37 @@
   line-height: 1.3;
   letter-spacing: 0.03em;
 
+  text-align: center;
+
+  margin-bottom: 43px;
+}
+.choose-title{
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 1.3;
+  letter-spacing: 0.03em;
+  white-space: pre-wrap;
+  text-align: start;
   margin: 0;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  width: 180px;
+}
+.choose-list{
+  position: absolute;
+counter-reset: section-two;
+bottom: -160px;
+left: 20px;
+padding-top: 49px;
+padding-right: 14px;
+padding-bottom: 20px;
+padding-left: 40px;
+background-color: $white-background-color;
+width: 280px;
+
+box-shadow: -5px 8px 26px rgba(0, 0, 0, 0.04);
 }
 
 .program-list {
@@ -18,6 +51,7 @@
   margin-left: auto;
   padding-left: 20px;
   border-left: 1px solid $white-text-color;
+ 
 }
 
 .program-list-item {
@@ -27,12 +61,47 @@
   font-size: 14px;
   line-height: 2;
   letter-spacing: 0.08em;
+    &:not(:last-child){
+      margin-bottom: 40px;
+    }
 }
 
-.program-list-item-list {
+.program-list-item-title{
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 2;
+letter-spacing: 0.08em;
+text-transform: uppercase;
+  margin-bottom: 5px;
+}
+.program-line{
+  
+  &::before{
+    display: block;
+    content: "";
+    background-color: $orange-background-color;
+    width: 12px;
+    height: 12px;
+    border-radius: 70px;
+    position: relative;
+    top: 19px;
+    left: -27px;
+  }
+  &::after{
+    display: block;
+    content: "";
+      background-image: url("./../images/mobile-img/program1x.png");
+      background-repeat: no-repeat;
+      background-position: bottom right;
+  }
+
+}
+
+.program-list-item-list{
   margin: 0;
 }
-
 .program-list-item-list-item-title {
   color: $orange-text-color;
   font-family: 'Montserrat', sans-serif;
@@ -40,6 +109,19 @@
   font-size: 12px;
   line-height: 1.667;
   letter-spacing: 0.08em;
+  display: flex;
+  align-items: center;
+  &:not(:last-child){
+    margin-bottom: 5px;
+  }
+  &::before{
+    display: block;
+    content: "";
+    width: 20px;
+    height: 2px;
+    margin-right: 20px;
+    background-color: $orange-background-color;
+  }
 }
 
 .program-list-item-list-item-text {
@@ -49,6 +131,9 @@
   font-size: 12px;
   line-height: 1.667;
   letter-spacing: 0.08em;
-  //   opacity: 50%;
+  white-space: pre-wrap;
   margin: 0;
+  &:not(:last-child){
+    margin-bottom: 8px;
+  }
 }
