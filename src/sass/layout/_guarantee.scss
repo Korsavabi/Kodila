@@ -1,5 +1,6 @@
 .guarantee {
   padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .guarantee-bg {
@@ -68,12 +69,6 @@
 }
 
 @media (min-width: 768px) {
-  .container {
-    width: 768px;
-    padding-right: 40px;
-    padding-left: 40px;
-  }
-
   .guarantee-list {
     background-color: #f1f1f1;
     padding-top: 30px;
@@ -113,5 +108,47 @@
     height: 35px;
     top: 55%;
     left: 12px;
+  }
+}
+
+@media (min-width: 1356px) {
+  .guarantee {
+    padding-top: 65px;
+    padding-bottom: 65px;
+  }
+
+  .guarantee-title {
+    font-size: 46px;
+
+    margin-bottom: 50px;
+  }
+
+  .guarantee-list {
+    padding-top: 50px;
+    padding-bottom: 45px;
+    padding-right: 112px;
+    padding-left: 112px;
+  }
+
+  .guarantee-list-item {
+    width: 1090px;
+  }
+
+  .guarantee-list-item-logo-svg {
+    top: 0px;
+    width: 30px;
+    height: 30px;
+    margin-right: 30px;
+  }
+
+  .dashed::after {
+    height: 38px;
+    top: 61%;
+    left: 14px;
+  }
+
+  .guarantee-title-text {
+    font-size: 20px;
+    line-height: 1.4;
   }
 }

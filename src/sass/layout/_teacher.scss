@@ -24,7 +24,7 @@
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.08em;
-  margin-bottom: 10px;
+  //   margin-bottom: 10px;
 
   color: $black-text-color;
 
@@ -72,15 +72,15 @@
   color: $black-text-color;
 }
 
+.teacher-list-item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
 .teacher-list-item-check-svg {
   width: 17px;
   height: 14px;
   margin-right: 9px;
   flex-shrink: 0;
-}
-
-.teacher-list-item:not(:last-child) {
-  margin-bottom: 20px;
 }
 
 .teacher-education-list {
@@ -118,13 +118,13 @@
     display: flex;
   }
 
-  .teacher-photo-tablet {
-    margin-right: 40px;
-  }
-
   .teacher-title {
     font-size: 26px;
     margin-bottom: 30px;
+  }
+
+  .teacher-photo-tablet {
+    margin-right: 40px;
   }
 
   .teacher-info-tablet {
@@ -138,5 +138,86 @@
       top: 130%;
       left: 0;
     }
+  }
+
+  .teacher-list {
+    margin-bottom: 38px;
+  }
+}
+
+@media (min-width: 1356px) {
+  .teacher {
+    padding-top: 130px;
+    padding-bottom: 65px;
+  }
+
+  //   .teacher-tablet {
+  //     padding-left: 180px;
+  //     padding-right: 295px;
+  //   }
+
+  .teacher-title {
+    font-size: 46px;
+    margin-bottom: 50px;
+  }
+
+  .teacher-photo-tablet {
+    margin-right: 30px;
+  }
+
+  .teacher-img {
+    width: 530px;
+    height: 667px;
+    margin-bottom: 0;
+  }
+
+  .teacher-info-tablet {
+    padding-top: 107px;
+    width: 641px;
+    margin-right: 250px;
+  }
+
+  .teacher-name {
+    font-size: 30px;
+    line-height: 1.23;
+    &::after {
+      width: 640px;
+      top: 143%;
+    }
+  }
+
+  .teacher-list {
+    margin-top: 45px;
+    margin-bottom: 63px;
+    // position: relative;
+  }
+
+  .teacher-list-item {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+
+  .teacher-list-item:not(:last-child) {
+    margin-bottom: 30px;
+  }
+
+  .teacher-list-item-check-svg {
+    width: 25px;
+    height: 20px;
+    margin-right: 35px;
+  }
+
+  .teacher-education-list {
+    margin-bottom: 20px;
+  }
+
+  .teacher-education-list-item-text {
+    font-size: 18px;
+    line-height: 1.56;
+  }
+
+  .teacher-education-list-item-text-link {
+    font-size: 18px;
+    line-height: 1.56;
   }
 }
