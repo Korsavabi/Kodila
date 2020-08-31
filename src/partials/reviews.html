@@ -3,13 +3,32 @@
 
   <ul class="reviews-title-list">
     <li class="reviews-title-list-item">
-      <img
-        class="reviews-img"
-        src="./images/mobile-img/reviews1x.png"
-        alt="Выпускница"
-        width="90"
-        height="90"
-      />
+      <picture>
+        <source
+          srcset="
+            ./images/header-img/reviews1x.png 1x,
+            ./images/header-img/reviews2x.png 2x
+          "
+          media="(min-width: 1356px)"
+        />
+        <source
+          srcset="
+            ./images/tablet-img/reviews1x.png 1x,
+            ./images/tablet-img/reviews2x.png 2x
+          "
+          media="(min-width: 768px)"
+        />
+        <source
+          srcset="./images/mobile-img/rewievsx1.png 2x"
+          media="(min-width: 320px)"
+        />
+        <img
+          src="./images/mobile-img/reviews1x.png"
+          alt=""
+          width="90"
+          height="90"
+        />
+      </picture>
 
       <svg class="reviews-list-item-vk-svg">
         <use href="./images/svg/sprite.svg#vk"></use>
@@ -67,10 +86,10 @@
         height="54"
       />
     </li>
-    <!-- <li class="reviews-graduates-list reviews-graduates-list-t-d">
+    <li class="reviews-graduates-list reviews-graduates-list-t-d">
       <img
         class="reviews-graduates-img"
-        src="./images/reviews-img/reviews4.png"
+        src="./images/reviews-img/4reviews-min.jpg"
         alt="Выпускница"
         width="54"
         height="54"
@@ -79,7 +98,7 @@
     <li class="reviews-graduates-list reviews-graduates-list-t-d">
       <img
         class="reviews-graduates-img"
-        src="./images/reviews-img/reviews5.png"
+        src="./images/reviews-img/5reviews-min.jpg"
         alt="Выпускница"
         width="54"
         height="54"
@@ -88,7 +107,7 @@
     <li class="reviews-graduates-list reviews-graduates-list-t-d">
       <img
         class="reviews-graduates-img"
-        src="./images/reviews-img/reviews6.png"
+        src="./images/reviews-img/6reviews-min.jpg"
         alt="Выпускница"
         width="54"
         height="54"
@@ -97,11 +116,11 @@
     <li class="reviews-graduates-list reviews-graduates-list-t-d">
       <img
         class="reviews-graduates-img"
-        src="./images/reviews-img/reviews7.png"
+        src="./images/reviews-img/7reviews-min.jpg"
         alt="Выпускница"
         width="54"
         height="54"
       />
-    </li> -->
+    </li>
   </ul>
 </div>
