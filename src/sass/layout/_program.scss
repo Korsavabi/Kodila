@@ -7,6 +7,11 @@
   background-repeat: no-repeat;
   background-position: 100% 72.29%;;
 }
+@media screen and (min-device-pixrl-ration: 2), screen and (min-resolution: 192dpi),  screen and (min-resolution: 2dppx), screen and (min-width: 480px){
+  .program{
+  background-image: url("./../images/mobile-img/program2x.png");
+}
+}
 .program-title {
   color: $white-text-color;
   font-family: 'Montserrat', sans-serif;
@@ -73,14 +78,6 @@ text-transform: uppercase;
     top: 19px;
     left: -27px;
   }
-  &::after{
-    display: block;
-    content: "";
-      background-image: url("./../images/mobile-img/program1x.png");
-      background-repeat: no-repeat;
-      background-position: bottom right;
-  }
-
 }
 
 .program-list-item-list{
@@ -172,6 +169,11 @@ box-shadow: -5px 8px 26px rgba(0, 0, 0, 0.08);
     background-image: url("./../images/tablet-img/program1x.png");
     background-position: 100% 75%;;
   }
+  @media screen and (min-device-pixrl-ration: 2), screen and (min-resolution: 192dpi),  screen and (min-resolution: 2dppx){
+    .program{
+    background-image: url("./../images/tablet-img/program2x.png");
+  }
+  }
   .program-title {
     font-size: 26px;
     line-height: 1.308;
@@ -255,9 +257,14 @@ box-shadow: -5px 8px 26px rgba(0, 0, 0, 0.08);
   .program{
     padding-bottom: 363px;
     background-image: url("./../images/header-img/program1x.png");
-    background-position: -70px 90%
+    background-position: -70px 90%;
     position: relative;
   }
+  @media screen and (min-device-pixrl-ration: 2), screen and (min-resolution: 192dpi),  screen and (min-resolution: 2dppx){
+    .program{
+    background-image: url("./../images/header-img/program2x.png");
+  }
+}
   .program-line::before {
     top: -7px;
     left: -3px;
