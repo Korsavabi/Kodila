@@ -137,6 +137,9 @@ color: $black-text-color;
             flex: auto;
         }
     }
+    .hero-list-item-text{
+        white-space: pre-line;
+    }
     .hero-block{
         width: 250px;
     }
