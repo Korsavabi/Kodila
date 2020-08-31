@@ -22,4 +22,49 @@
         margin: 0 auto;
         margin-top: 30px;
     }
+    &-list-link-svg {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 768px;
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+    .contacts-list {
+        display: flex;
+        align-items: center;
+    }
+    .contacts-list-item:first-child {
+        margin-right: auto;
+    }
+    .contacts-list-item:nth-child(2) {
+        letter-spacing: 0.06em;
+        margin-right: 48px;
+        position: relative;
+    }
+    .contacts-list-item:nth-child(2)::after {
+        position: absolute;
+        content: "";
+        height: 40px;
+        bottom: -10px;
+        right: -10%;
+        border: 1px solid #B9B9B9;
+    }
+    .contacts-link-social img {
+        margin-top: 0;
+    }
+    .contacts-link-logo {
+        margin-bottom: 0;
+    }
+    .contacts-link-tel {
+        font-size: 20px;
+    }
+    .contacts-list-link-svg {
+        width: 24px;
+        height: 24px;
+    }
 }

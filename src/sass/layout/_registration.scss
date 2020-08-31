@@ -1,7 +1,9 @@
 .registration {
-    background-image: url('../images/mobile-img/reg-background1x.png'), linear-gradient(#111518, #111518);
+    background-image: url('../images/tablet-img/reg-background1x.png'), linear-gradient(#111518, #111518);
     background-repeat: no-repeat;
+    width: 100%;
     background-size: cover;
+    background-position-x: 84%;
     color: #fff;
     text-align: center;
     padding-top: 50px;
@@ -42,5 +44,31 @@
         font-style: normal;
         letter-spacing: 0.08em;
         font-size: 14px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 768px;
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+    .registration {
+        background-image: url('../images/tablet-img/reg-background1x.png'), linear-gradient(#111518, #111518);
+        background-position: center;
+    }
+    .registration-title {
+        font-size: 26px;
+    }
+    .registration-text {
+        font-size: 14px;
+        width: 452px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        letter-spacing: 0.09em;
+    }
+    .registration-form {
+        max-width: 390px;
+        margin: 0 auto;
     }
 }
