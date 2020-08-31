@@ -1,0 +1,66 @@
+
+.button{
+    font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 15px;
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+margin: 0 auto;
+letter-spacing: 0.08em;
+text-transform: uppercase;
+
+border: 0;
+
+background-color: $orange-button-color;
+
+padding: 14px 5px;
+margin-bottom: 30px;
+
+color: #FFFFFF;
+}
+.button-header{
+    padding: 14px 10px;
+    margin-bottom: 0;
+    background-color: transparent;
+    border: 1px solid $orange-button-color;
+    color: $orange-button-color;
+    &:hover{
+        background-color: $orange-button-color;
+        border: 1px solid rgba(0, 0, 0, 0.815);
+        color: $white-button-color;
+    }
+}
+.button-header-laptop{
+    display: none;
+}
+@media screen and (min-width: 768px){
+    .button{
+        margin: 0;
+    }
+    .button-header{
+        display: none;
+        
+    }
+    .button-header-laptop{
+        display: block;
+        margin: 0;
+        margin-right: 40px;
+        margin-bottom: 0;
+        background-color: transparent;
+        border: 1px solid $orange-button-color;
+        color: $orange-button-color;
+        &:hover{
+            background-color: $orange-button-color;
+            border: 1px solid rgba(0, 0, 0, 0.815);
+            color: $white-button-color;
+        }
+    }
+}
+@media screen and (min-width: 1356px){
+    .button{
+        padding: 27px 26px;
+    }
+}
