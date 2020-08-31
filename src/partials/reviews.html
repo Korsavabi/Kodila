@@ -3,36 +3,57 @@
 
   <ul class="reviews-title-list">
     <li class="reviews-title-list-item">
-      <img
-        class="reviews-img"
-        src="./images/mobile-img/reviews1x.png"
-        alt="Выпускница"
-        width="90"
-        height="90"
-      />
+      <picture>
+        <source
+          srcset="
+            ./images/header-img/reviews1x.png 1x,
+            ./images/header-img/reviews2x.png 2x
+          "
+          media="(min-width: 1356px)"
+        />
+        <source
+          srcset="
+            ./images/tablet-img/reviews1x.png 1x,
+            ./images/tablet-img/reviews2x.png 2x
+          "
+          media="(min-width: 768px)"
+        />
+        <source
+          srcset="./images/mobile-img/rewievsx1.png 2x"
+          media="(min-width: 320px)"
+        />
+        <img
+          class="reviews-img"
+          src="./images/mobile-img/reviews1x.png"
+          alt=""
+          width="150"
+          height="150"
+        />
+      </picture>
 
       <svg class="reviews-list-item-vk-svg">
         <use href="./images/svg/sprite.svg#vk"></use>
       </svg>
     </li>
 
-    <h3 class="reviews-title-name">Тоня Кучеровская</h3>
+    <li class="reviews-title-list-item-tablet">
+      <h3 class="reviews-title-name">Тоня Кучеровская</h3>
 
-    <p class="reviews-title-name-text-education">
-      Выпуск 2015-го года, Національний університет біоресурсів і
-      природокористування України
-    </p>
+      <p class="reviews-title-name-text-education">
+        Выпуск 2015-го года, Національний університет біоресурсів і
+        природокористування України
+      </p>
 
-    <p class="reviews-title-name-text-comment">
-      За короткий час занять з Оленою я опанувала граматику і поповнила свій
-      зовсім пустий словниковий запас. З першого ж заняття я зрозуміла, що
-      знаходжуся у своїй тарілці. Ми з Оленою стали друзями, тому що її справді
-      хвилювала моя успішність. Вона стала для мене авторитетом, проте я не
-      тремтіла на уроках, маючи страх зробити найменшу помилку. Зараз я можу
-      похизуватись тим, що я студен ...
-    </p>
-
-    <a class="reviews-title-name-text-link" href="">Читать дальше</a>
+      <p class="reviews-title-name-text-comment">
+        За короткий час занять з Оленою я опанувала граматику і поповнила свій
+        зовсім пустий словниковий запас. З першого ж заняття я зрозуміла, що
+        знаходжуся у своїй тарілці. Ми з Оленою стали друзями, тому що її
+        справді хвилювала моя успішність. Вона стала для мене авторитетом, проте
+        я не тремтіла на уроках, маючи страх зробити найменшу помилку. Зараз я
+        можу похизуватись тим, що я студен ...
+        <a class="reviews-title-name-text-link" href="">Читать дальше</a>
+      </p>
+    </li>
   </ul>
 
   <ul class="reviews-graduates-slider">
@@ -58,6 +79,42 @@
       <img
         class="reviews-graduates-img"
         src="./images/reviews-img/reviews3.png"
+        alt="Выпускница"
+        width="54"
+        height="54"
+      />
+    </li>
+    <li class="reviews-graduates-list reviews-graduates-list-t-d">
+      <img
+        class="reviews-graduates-img"
+        src="./images/reviews-img/4reviews-min.jpg"
+        alt="Выпускница"
+        width="54"
+        height="54"
+      />
+    </li>
+    <li class="reviews-graduates-list reviews-graduates-list-t-d">
+      <img
+        class="reviews-graduates-img"
+        src="./images/reviews-img/5reviews-min.jpg"
+        alt="Выпускница"
+        width="54"
+        height="54"
+      />
+    </li>
+    <li class="reviews-graduates-list reviews-graduates-list-t-d">
+      <img
+        class="reviews-graduates-img"
+        src="./images/reviews-img/6reviews-min.jpg"
+        alt="Выпускница"
+        width="54"
+        height="54"
+      />
+    </li>
+    <li class="reviews-graduates-list reviews-graduates-list-t-d">
+      <img
+        class="reviews-graduates-img"
+        src="./images/reviews-img/7reviews-min.jpg"
         alt="Выпускница"
         width="54"
         height="54"
