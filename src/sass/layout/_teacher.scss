@@ -16,6 +16,8 @@
 
 .teacher-img {
   margin-bottom: 20px;
+  width: 243px;
+  height: 306px;
 }
 
 .teacher-name {
@@ -129,7 +131,6 @@
 
   .teacher-info-tablet {
     padding-top: 62px;
-    width: 361px;
   }
 
   .teacher-name {
@@ -151,10 +152,9 @@
     padding-bottom: 65px;
   }
 
-  //   .teacher-tablet {
-  //     padding-left: 180px;
-  //     padding-right: 295px;
-  //   }
+  .teacher-tablet {
+    width: 1202px;
+  }
 
   .teacher-title {
     font-size: 46px;
@@ -167,12 +167,12 @@
 
   .teacher-img {
     margin-bottom: 0;
+    width: 530px;
+    height: 667px;
   }
 
   .teacher-info-tablet {
     padding-top: 107px;
-    width: 641px;
-    margin-right: 250px;
   }
 
   .teacher-name {
@@ -208,6 +208,10 @@
   .teacher-education-list {
     margin-bottom: 20px;
   }
+
+  //   .teacher-education-list-item:nth-child(1) {
+
+  //   }
 
   .teacher-education-list-item-text {
     font-size: 18px;

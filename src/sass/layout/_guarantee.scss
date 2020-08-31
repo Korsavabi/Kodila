@@ -31,7 +31,7 @@
   top: 0px;
   width: 90px;
   height: 18px;
-  margin-right: 20px;
+  margin-right: 9px;
 }
 
 .guarantee-title-text {
@@ -47,7 +47,7 @@
   display: flex;
   position: relative;
 
-  width: calc((100% - 30px * 1) / 1);
+  //   width: calc((100% - 30px * 1) / 1);
 
   &:not(:last-child) {
     margin-bottom: 23px;
@@ -78,7 +78,6 @@
   }
 
   .guarantee-list-item {
-    width: 520px;
     &:not(:last-child) {
       margin-bottom: 20px;
     }
@@ -96,8 +95,6 @@
     top: 0px;
     width: 27px;
     height: 18px;
-    margin-right: 24px;
-    flex-shrink: 0;
   }
 
   .dashed::after {
@@ -107,7 +104,7 @@
     border: 1px dashed #b9b9b9;
     height: 35px;
     top: 55%;
-    left: 12px;
+    left: 9px;
   }
 }
 
@@ -130,10 +127,6 @@
     padding-left: 112px;
   }
 
-  .guarantee-list-item {
-    width: 1090px;
-  }
-
   .guarantee-list-item-logo-svg {
     top: 0px;
     width: 30px;
@@ -144,7 +137,7 @@
   .dashed::after {
     height: 38px;
     top: 61%;
-    left: 14px;
+    left: 12px;
   }
 
   .guarantee-title-text {
