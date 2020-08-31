@@ -11,3 +11,12 @@
     padding: 15px 5px;
     transition: all 0.5s;
 }
+
+@media screen and (min-width: 1356px) {
+    .registration .btn {
+        width: 354px;
+        margin-top: 80px;
+        height: 70px;
+        font-size: 14px;
+    }
+}
