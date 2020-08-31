@@ -20,6 +20,19 @@ margin-bottom: 30px;
 
 color: #FFFFFF;
 }
+.btn {
+    margin-top: 30px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-size: 12px;
+    font-weight: 600;
+    color: #fff;
+    width: 260px;
+    background-color: #FF6B09;
+    border: none;
+    padding: 15px 5px;
+    transition: all 0.5s;
+}
 .button-header{
     padding: 14px 10px;
     margin-bottom: 0;
@@ -62,19 +75,6 @@ color: #FFFFFF;
     .button{
         padding: 27px 26px;
     }
-.btn {
-    margin-top: 30px;
-    text-transform: uppercase;
-    letter-spacing: 0.08em;
-    font-size: 12px;
-    font-weight: 600;
-    color: #fff;
-    width: 260px;
-    background-color: #FF6B09;
-    border: none;
-    padding: 15px 5px;
-    transition: all 0.5s;
-}
     .registration .btn {
         width: 354px;
         margin-top: 80px;
