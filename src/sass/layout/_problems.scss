@@ -1,10 +1,8 @@
-
 .problems {
+  position: relative;
   background-color: $black-text-color;
   height: 545px;
   padding-top: 50px;
-  counter-reset: section-one;
-
 }
 
 .porblems-title {
@@ -13,16 +11,14 @@
   line-height: 1.35;
   letter-spacing: 0.03em;
   color: $white-text-color;
-  counter-increment: section-one 0;
-
+  counter-reset: section-one;
 }
-
 
 .problems-list {
   position: absolute;
-  counter-reset: section-two;
   top: 205px;
-  left: 20px;
+  left: 50%;
+  transform: translateX(-50%);
   padding-top: 49px;
   padding-right: 14px;
   padding-bottom: 20px;
@@ -31,30 +27,28 @@
   width: 280px;
 
   box-shadow: -5px 8px 26px rgba(0, 0, 0, 0.04);
+  counter-increment: section-one 0;
+  counter-reset: section-two;
 }
-
 
 .problems-list-item {
   position: relative;
   list-style-type: none;
-  & + & {
-    margin-top: 39px;
+  @media screen and (max-width: 767px) {
+    & + & {
+      margin-top: 39px;
+    }
   }
-  
-  
 }
 
 .problems-list-item::before {
   counter-increment: section-two;
-  height: 13px;
-  content:  url("./../images/svg/line.svg") "  " counter(section-one) counter(section-two);
+  content: url('./../images/svg/line.svg') '  ' counter(section-one)
+    counter(section-two);
   position: absolute;
   top: -20px;
   left: 0px;
-
-
 }
-
 
 .porblems-title-accent {
   color: $orange-text-color;
@@ -63,7 +57,7 @@
 .problems-list-item {
   font-weight: 800;
   font-size: 14px;
-  line-height: 1.643;
+  line-height: 1.214;
   letter-spacing: 0.08em;
   color: $orange-text-color;
 }
@@ -71,7 +65,101 @@
 .problems-list-item-text {
   font-weight: 800;
   font-size: 14px;
-  line-height: 1.643;
+  line-height: 1.428;
   letter-spacing: 0.08em;
   color: $black-text-color;
+}
+
+@media screen and (min-width: 768px) {
+  .problems {
+    height: 340px;
+    padding-top: 60px;
+  }
+
+  .porblems-title {
+    font-weight: 800;
+    font-size: 26px;
+    line-height: 1.308;
+  }
+
+  .problems-list {
+    top: 188px;
+    padding-top: 59px;
+    padding-right: 46px;
+    padding-bottom: 26px;
+    padding-left: 96px;
+
+    width: 688px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .problems-list-item {
+    @media screen and (max-width: 1355px) {
+      width: calc((100% - 40px) / 2);
+      &:not(:nth-child(-n + 2)) {
+        margin-top: 37px;
+      }
+      &:not(:nth-child(2n + 1)) {
+        margin-left: 40px;
+      }
+    }
+  }
+}
+@media screen and (min-width: 1356px) {
+  .problems {
+    height: 560px;
+    padding-top: 100px;
+  }
+
+  .porblems-title {
+    font-size: 46px;
+    line-height: 1.304;
+  }
+
+  .problems-list {
+    top: 348px;
+    padding-top: 113px;
+    padding-right: 112px;
+    padding-bottom: 62px;
+    padding-left: 114px;
+    background-color: $white-background-color;
+    width: 1314px;
+  }
+
+  .problems-list-item {
+    list-style-type: none;
+    width: calc((100% - 30px * 2) / 3);
+    &:not(:nth-child(-n + 3)) {
+      margin-top: 75px;
+    }
+    &:not(:nth-child(3n + 1)) {
+      margin-left: 30px;
+    }
+    &:before {
+      top: -30px;
+    }
+  }
+
+  .problems-list-item {
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 1.65;
+    letter-spacing: 0.08em;
+  }
+
+  .problems-list-item-text {
+    font-weight: 800;
+    font-size: 20px;
+
+    line-height: 1.2;
+    letter-spacing: 0.08em;
+  }
+  .problems {
+    background-image: url("./../images/header-img/header-fire1x.png");
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position-y: 86px;
+
+  }
 }
