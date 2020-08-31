@@ -31,8 +31,6 @@ color: #FFFFFF;
         background-color: $orange-button-color;
         border: 1px solid rgba(0, 0, 0, 0.815);
         color: $white-button-color;
-        -webkit-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, inset 15px -30px 18px -16px rgba(0,0,0,0.29); 
-        box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, inset 15px -30px 18px -16px rgba(0,0,0,0.29);
     }
 }
 .button-header-laptop{
@@ -44,11 +42,21 @@ color: #FFFFFF;
     }
     .button-header{
         display: none;
+        
     }
     .button-header-laptop{
         display: block;
         margin: 0;
         margin-right: 40px;
+        margin-bottom: 0;
+        background-color: transparent;
+        border: 1px solid $orange-button-color;
+        color: $orange-button-color;
+        &:hover{
+            background-color: $orange-button-color;
+            border: 1px solid rgba(0, 0, 0, 0.815);
+            color: $white-button-color;
+        }
     }
 }
 @media screen and (min-width: 1356px){
