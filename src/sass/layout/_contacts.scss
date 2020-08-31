@@ -16,9 +16,74 @@
     }
     &-link-tel span {
         margin-left: 10px;
+        transition: all 0.3s;
     }
     &-link-social img {
         margin: 0 auto;
         margin-top: 30px;
+    }
+    &-list-link-svg {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .contacts-list {
+        display: flex;
+        align-items: center;
+        &-item:first-child {
+            margin-right: auto;
+        }
+        &-item:nth-child(2) {
+            letter-spacing: 0.10em;
+            margin-right: 48px;
+            position: relative;
+        }
+        &-item:nth-child(2)::after {
+            position: absolute;
+            content: "";
+            height: 40px;
+            bottom: -8px;
+            right: -9%;
+            border: 1px solid #B9B9B9;
+        }
+        &-link-svg {
+            width: 24px;
+            height: 24px;
+        }
+    }
+    .contacts-link-social img {
+        margin-top: 0;
+    }
+    .contacts-link-logo {
+        margin-bottom: 0;
+    }
+    .contacts-link-tel {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 1356px) {
+    .contacts-list {
+        padding-top: 56px;
+        padding-bottom: 56px;
+        display: flex;
+        &-item:first-child {
+            margin-right: 290px;
+        }
+        &-link-svg {
+            width: 30px;
+            height: 29px;
+        }
+        &-item:nth-child(2)::after {
+            bottom: -6px;
+        }
+    }
+    .contacts-link-tel {
+        font-size: 30px;
+    }
+    .contacts-link-social img {
+        margin-left: 24px;
     }
 }
