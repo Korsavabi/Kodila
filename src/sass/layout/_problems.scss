@@ -11,7 +11,7 @@
   line-height: 1.35;
   letter-spacing: 0.03em;
   color: $white-text-color;
-  counter-reset: section-one;
+  // counter-reset: section-one;
 }
 
 .problems-list {
@@ -27,8 +27,8 @@
   width: 280px;
 
   box-shadow: -5px 8px 26px rgba(0, 0, 0, 0.04);
-  counter-increment: section-one 0;
-  counter-reset: section-two;
+  // counter-increment: section-one 0;
+  counter-reset: section-one;
 }
 
 .problems-list-item {
@@ -42,9 +42,9 @@
 }
 
 .problems-list-item::before {
-  counter-increment: section-two;
-  content: url('./../images/svg/line.svg') '  ' counter(section-one)
-    counter(section-two);
+  counter-increment: section-one;
+  content: url('./../images/svg/line.svg') '  '
+    counter(section-one, decimal-leading-zero);
   position: absolute;
   top: -20px;
   left: 0px;
@@ -156,10 +156,9 @@
     letter-spacing: 0.08em;
   }
   .problems {
-    background-image: url("./../images/header-img/header-fire1x.png");
+    background-image: url('./../images/header-img/header-fire1x.png');
     background-repeat: no-repeat;
     background-position-x: 100%;
     background-position-y: 86px;
-
   }
 }
