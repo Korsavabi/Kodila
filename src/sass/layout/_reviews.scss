@@ -67,7 +67,6 @@
   white-space: pre-line;
 
   color: $secondary-black-text-color;
-
 }
 
 .reviews-title-name-text-link {
@@ -90,8 +89,8 @@
     margin-right: 10px;
   }
 }
-.reviews-title-list-item{
-  width:90px;
+.reviews-title-list-item {
+  width: 90px;
   margin: 0 auto;
 }
 @media screen and (max-width: 767px) {
@@ -100,7 +99,7 @@
   }
 }
 
-@media screen and  (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .reviews-title {
     font-size: 26px;
     line-height: 1.3;
@@ -118,11 +117,12 @@
 
   .reviews-title-list-item {
     margin-right: 46px;
-    
   }
 
-  .reviews-list-item-vk-svg {
+  .reviews-list-item-fb-svg {
     margin-bottom: 0;
+    width: 30px;
+    height: 30px;
   }
 
   .reviews-title-list-item-tablet {
@@ -203,7 +203,7 @@
     }
   }
 }
-.btn-caorusel{
+.btn-caorusel {
   background-color: transparent;
   border: 0;
   outline: 0;

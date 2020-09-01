@@ -24,6 +24,16 @@
 
 .guarantee-list {
   position: relative;
+
+  & .dashed::after {
+    position: absolute;
+    content: '';
+    display: block;
+    border: 1px dashed $grey-text-color;
+    height: 90%;
+    top: 35%;
+    left: 5%;
+  }
 }
 
 .guarantee-list-item-logo-svg {
@@ -55,15 +65,15 @@
   }
 }
 
-.dashed::after {
-  position: absolute;
-  content: '';
-  display: block;
-  border: 1px dashed $grey-text-color;
-  height: 75px;
-  top: 29%;
-  left: 5%;
-}
+// .dashed::after {
+//   position: absolute;
+//   content: '';
+//   display: block;
+//   border: 1px dashed $grey-text-color;
+//   height: 75px;
+//   top: 29%;
+//   left: 5%;
+// }
 
 .guarantee-title-text-orange {
   color: $orange-text-color;
@@ -76,6 +86,16 @@
     padding-bottom: 30px;
     padding-right: 50px;
     padding-left: 80px;
+
+    & .dashed::after {
+      position: absolute;
+      content: '';
+      display: block;
+      border: 1px dashed $grey-text-color;
+      height: 78%;
+      top: 61%;
+      left: 2%;
+    }
   }
 
   .guarantee-list-item {
@@ -98,15 +118,15 @@
     height: 18px;
   }
 
-  .dashed::after {
-    position: absolute;
-    content: '';
-    display: block;
-    border: 1px dashed #b9b9b9;
-    height: 35px;
-    top: 55%;
-    left: 9px;
-  }
+  //   .dashed::after {
+  //     position: absolute;
+  //     content: '';
+  //     display: block;
+  //     border: 1px dashed #b9b9b9;
+  //     height: 35px;
+  //     top: 55%;
+  //     left: 9px;
+  //   }
 }
 
 @media (min-width: 1356px) {
@@ -126,6 +146,16 @@
     padding-bottom: 45px;
     padding-right: 112px;
     padding-left: 112px;
+
+    & .dashed::after {
+      position: absolute;
+      content: '';
+      display: block;
+      border: 1px dashed $grey-text-color;
+      height: 64%;
+      top: 65%;
+      left: 1%;
+    }
   }
 
   .guarantee-list-item-logo-svg {
@@ -135,11 +165,11 @@
     margin-right: 30px;
   }
 
-  .dashed::after {
-    height: 38px;
-    top: 61%;
-    left: 12px;
-  }
+  //   .dashed::after {
+  //     height: 38px;
+  //     top: 61%;
+  //     left: 12px;
+  //   }
 
   .guarantee-title-text {
     font-size: 20px;
