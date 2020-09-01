@@ -1,6 +1,4 @@
 .hero{
-    height: auto;
-    padding-top: 50.47px;
     padding-bottom: 49.5px;
 }
 .hero-line-img{
@@ -8,10 +6,9 @@
     background-size: contain;
     background-repeat: no-repeat;
     height: auto;
-    background-position-y: 55%;
+    background-position-y: 50%;
 }
 .hero-title{
-    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 20px;
@@ -23,7 +20,6 @@
     margin-bottom: 30px;
 }
 .hero-text{
-font-family: 'Montserrat', sans-serif;
 font-style: normal;
 font-weight: 600;
 font-size: 14px;
@@ -49,15 +45,14 @@ color: $black-text-color;
     margin-bottom: 77px;
 }
 .hero-bg-img{
-    width: 321px;
-    height: 400px;
+    height: 300px;
     background-size: 85%, 100%;
     background-position: 70% 25%;
     background-image: url('../images/tablet-img/tablet-header/header1x.png'), url('../images/tablet-img/tablet-header/headerbg1x.png');
 }
 @media screen and (min-device-pixrl-ration: 2), screen and (min-resolution: 192dpi),  screen and (min-resolution: 2dppx), screen and (min-width: 480px){
     .hero-bg-img{
-        background-image: url('../images/mobile-img/mobile-header/headerbgx2.png');
+        background-image: url('../images/mobile-img/mobile-header/headerbgx2.png')  ;
     }
 }
 .hero-list{
@@ -94,7 +89,7 @@ color: $black-text-color;
  
 } 
 .hero-list-item:not(:last-child){
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     
 }
 .hero-list-item-text{
@@ -105,7 +100,7 @@ color: $black-text-color;
     align-items: center;
     width: 146px;
     letter-spacing: 0.08em;
-    white-space: pre-wrap;
+    white-space: pre-line;
     &::before{
         content: "";
         display: block;
@@ -122,10 +117,9 @@ color: $black-text-color;
 
 @media screen and (min-width: 768px){
     .hero-line-img{
-        background-position-y: 20%;
+        background-position-y: -30%;
     }
     .hero{
-        padding-top: 70px;
         padding-bottom: 50px;
     }
     .hero-box-list{
@@ -142,11 +136,11 @@ color: $black-text-color;
         height: 400px;
         background-size: 85%, 100%;
         background-position: 70% 25%;
-        background-image: url('../images/mobile-img/mobile-header/headerx1.png'), url('../images/mobile-img/mobile-header/headerbgx1.png');
+        background-image: url('../images/tablet-img/tablet-header/header1x.png'), url('../images/tablet-img/tablet-header/headerbg1x.png');
     }
     @media screen and (min-device-pixrl-ration: 2), screen and (min-resolution: 192dpi),  screen and (min-resolution: 2dppx){
         .hero-bg-img{
-            background-image: url('../images/mobile-img/mobile-header/headerbgx2.png'), url('../images/mobile-img/mobile-header/headerbgx2.png');
+            background-image: url('../images/tablet-img/tablet-header/headerbg2x.png'), url('../images/tablet-img/tablet-header/headerbg2x.png');
         }
     }
     .hero-list-item{

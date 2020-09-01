@@ -1,41 +1,22 @@
-.button{
-    font-style: normal;
-font-weight: bold;
-font-size: 12px;
-line-height: 15px;
-display: flex;
-align-items: center;
-text-align: center;
-justify-content: center;
-margin: 0 auto;
-letter-spacing: 0.08em;
-text-transform: uppercase;
-
-border: 0;
-
-background-color: $orange-button-color;
-
-padding: 14px 5px;
+.button-hero{
 margin-bottom: 30px;
-
-color: #FFFFFF;
 }
 .btn {
     margin-top: 30px;
     text-transform: uppercase;
     letter-spacing: 0.08em;
     font-size: 12px;
-    font-weight: 600;
+    font-weight: bold;
     color: #fff;
-    width: 260px;
-    background-color: #FF6B09;
+    background-color: $orange-button-color;
     border: none;
-    padding: 15px 5px;
+    padding: 15px 20px;
     transition: all 0.5s;
 }
 .button-header{
-    padding: 14px 10px;
+    margin: 0 auto;
     margin-bottom: 0;
+    display: block;
     background-color: transparent;
     border: 1px solid $orange-button-color;
     color: $orange-button-color;

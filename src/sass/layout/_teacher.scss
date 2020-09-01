@@ -25,7 +25,6 @@
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.08em;
-  //   margin-bottom: 10px;
 
   color: $black-text-color;
 
@@ -52,14 +51,6 @@
   bottom: -25px;
   height: 2px;
   background-color: $orange-background-color;
-  left: 0;
-}
-
-.line-svg {
-  background-image: url('../images/svg/line.svg');
-  background-repeat: no-repeat;
-  width: 280px;
-  top: 130%;
   left: 0;
 }
 
@@ -110,7 +101,7 @@
   color: $accent-color;
 }
 
-@media (min-width: 768px) {
+@media screen and  (min-width: 768px) {
   .teacher {
     padding-top: 302px;
   }
@@ -145,7 +136,7 @@
   }
 }
 
-@media (min-width: 1356px) {
+@media  screen and  (min-width: 1356px) {
   .teacher {
     padding-top: 159px;
     padding-bottom: 65px;
