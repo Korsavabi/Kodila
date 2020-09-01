@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://Korsavabi.github.io/Kodila",
+  "homepage": "https://Korsavabi.github.io/kodila",
   "scripts": {
     "dev": "parcel src/*.html",
     "build": "parcel build src/*.html",
-    "predeploy": "npm run build -- --public-url=/Kodila/",
+    "predeploy": "npm run build -- --public-url=/kodila/",
     "deploy": "gh-pages -d dist"
   },
   "repository": {
