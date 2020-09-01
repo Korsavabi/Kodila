@@ -1,11 +1,12 @@
 .program {
   background-color: $black-background-color;
   padding-top: 50px;
-  padding-bottom: 537px;
+  padding-bottom: 287px;
   position: relative;
   background-image: url("./../images/mobile-img/program1x.png");
   background-repeat: no-repeat;
-  background-position: 100% 72.29%;;
+  background-position: 100% 82.29%;
+  background-size: 50%;
 }
 @media screen and (min-device-pixrl-ration: 2), screen and (min-resolution: 192dpi),  screen and (min-resolution: 2dppx), screen and (min-width: 480px){
   .program{
@@ -32,13 +33,13 @@
   position: absolute;
   content: "";
   display: block;
-  width: 1340px;
-  background-color: #ffffff;
-  transform: rotate(90deg);
-  height: 1px;
-  top: 688px;
-  left: -671px;
+  height: 92%;
+  border-left: 1px solid #ffffff;
+  top: 18px;
+  left: -2px;
   right: 0;
+  bottom: 0;
+
  }
 }
 
@@ -119,50 +120,15 @@ text-transform: uppercase;
   margin-top: 50px;
   margin-bottom: 30px;
 }
-.choose-list{
-  position: absolute;
-counter-reset: section-two;
-bottom: -280px;
-left: 20px;
-padding-top: 49px;
-padding-right: 34px;
-padding-bottom: 20px;
-padding-left: 40px;
-background-color: $white-background-color;
-
-box-shadow: -5px 8px 26px rgba(0, 0, 0, 0.08);
-}
-.choose-list-item {
-  font-weight: 800;
-  font-size: 14px;
-  line-height: 1.643;
-  letter-spacing: 0.08em;
-  color: $orange-text-color;
-  display: block;
-  list-style-type: none;
-  &:not(:last-child) {
-    padding-bottom: 39px;
-  }
-  &::before {
-    counter-increment: section-two;
-    height: 13px;
-    content:  url("./../images/svg/line.svg") "  " counter(section-one) counter(section-two);
-  }
-}
-.choose-list-item-text {
-  font-weight: 800;
-  font-size: 14px;
-  line-height: 1.643;
-  letter-spacing: 0.08em;
-  color: $black-text-color;
-  white-space: pre-line;
-  margin-top: 10px;
+.program .problems-list{
+  top: calc(100% - 300px);
 }
 @media screen and(min-width: 768px){
   .program{
     padding-bottom: 392px;
     background-image: url("./../images/tablet-img/program1x.png");
     background-position: 100% 75%;;
+    background-size: 50%;
   }
   @media screen and (min-device-pixrl-ration: 2), screen and (min-resolution: 192dpi),  screen and (min-resolution: 2dppx){
     .program{
@@ -180,9 +146,9 @@ box-shadow: -5px 8px 26px rgba(0, 0, 0, 0.08);
     width: 100%;
     padding-left: 97px;
     &::before {
-      width: 770px;
-      top: 405px;
-      left: -310px;
+      height: 86%;
+      top: 16px;
+      left: 75px;
     }
 }
 .program-list-item{
@@ -199,47 +165,15 @@ box-shadow: -5px 8px 26px rgba(0, 0, 0, 0.08);
     margin-right: 30px;
   }
 
-
-  .choose{
-    position: relative;
-   
-  }
   .choose-title{
     position: absolute;
     white-space: initial;
-    bottom: -210px;
+    bottom: 200px;
     left: 25%;
     font-size: 26px;
   }
-  .choose-list{
-  display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    bottom: -650px;
-    padding-top: 30px;
-    padding-bottom: 25px;
-    padding-left: 98px;
-  }
-  .choose-list-item{
-    width: calc((100% - 30px * 1) / 2);
-    display: inline-block;
-    &{
-      padding-bottom: 30px;
-     
-    }
-    &:nth-child(4){
-      padding-bottom: 60px;
-    }
-    &:nth-child(5){
-      padding-bottom: 0;
-
-    }
-    &:nth-child(6){
-      padding-bottom: 45px;
-    }
-    
+  .program .problems-list{
+    top: calc(100% - 200px);
   }
 }
 @media screen and(min-width: 1356px){
@@ -252,8 +186,9 @@ box-shadow: -5px 8px 26px rgba(0, 0, 0, 0.08);
   .program{
     padding-bottom: 363px;
     background-image: url("./../images/header-img/program1x.png");
-    background-position: -70px 90%;
+    background-position: -70px 75%;
     position: relative;
+    background-size: 40%;
   }
   @media screen and (min-device-pixrl-ration: 2), screen and (min-resolution: 192dpi),  screen and (min-resolution: 2dppx){
     .program{
@@ -275,7 +210,7 @@ box-shadow: -5px 8px 26px rgba(0, 0, 0, 0.08);
     justify-content: flex-end;
     padding-left: 0;
     &::before {
-     background-color: transparent;
+     border: 0;
     }
 }
 .program-list-item{
@@ -310,29 +245,7 @@ box-shadow: -5px 8px 26px rgba(0, 0, 0, 0.08);
 .choose-title{
   display: none;
 }
-.choose-list{
-  padding-top: 70px;
-    padding-bottom: 70px;
-    padding-left: 10px;
-    bottom: -510px;
-
-}
-.choose-list-item{
-  width: calc((100% - 30px * 2) / 3);
-  padding-right: 40px;
-  &:nth-child(3){
-    padding-right: 0;
-  }
-  &:nth-child(6){
-    padding-right: 0;
-  }
-  &:nth-child(n+4){
-    padding-bottom: 0;
-  }
-}
-.choose-list-item-text{
-  font-size: 20px;
-  line-height: 1.2;
-  white-space: inherit;
+.program .problems-list{
+  top: calc(100% - 300px);
 }
 }

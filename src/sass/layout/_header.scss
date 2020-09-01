@@ -88,10 +88,6 @@
   margin: 0;
   z-index: 3;
   background-color: transparent;
-  position: absolute;
-  top: 35px;
-  right: 20px;
-  height: 40px;
   &:focus {
     outline: none;
   }
@@ -160,6 +156,7 @@
     align-items: center;
     text-align: center;
     flex-direction: row;
+    padding: 0;
 }
 .header-navigation-list-item{
     margin: 0;
