@@ -4,11 +4,11 @@
     padding-bottom: 49.5px;
 }
 .hero-line-img{
-    background-image: url("../images/mobile-img/Vector1.png");
+    background-image: url("../images/header-img/header-back.png");
     background-size: contain;
     background-repeat: no-repeat;
-    height: 530px;
-    background-position-y: bottom;
+    height: auto;
+    background-position-y: 55%;
 }
 .hero-title{
     font-family: 'Montserrat', sans-serif;
@@ -121,6 +121,9 @@ color: $black-text-color;
 }
 
 @media screen and (min-width: 768px){
+    .hero-line-img{
+        background-position-y: 20%;
+    }
     .hero{
         padding-top: 70px;
         padding-bottom: 50px;
@@ -155,6 +158,9 @@ color: $black-text-color;
     }
 }
 @media screen and (min-width: 1356px){
+    .hero-line-img{
+        background-position-y: 0;
+    }
     .hero-bg-img{
         width: 721px;
         height: 610px;
