@@ -14,7 +14,7 @@
   border: 1px solid $orange-button-color;
   background-color: $orange-button-color;
   border: none;
-  padding: 15px 20px;
+  padding: 15px 5px;
 
   transition: all 0.5s;
 }
@@ -57,8 +57,8 @@
   }
 }
 @media screen and (min-width: 1356px) {
-  .button {
-    padding: 27px 26px;
+  .btn{
+    padding: 15px 20px;
   }
   .registration .btn {
     width: 354px;
