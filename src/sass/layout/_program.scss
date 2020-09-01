@@ -289,6 +289,7 @@ box-shadow: -5px 8px 26px rgba(0, 0, 0, 0.08);
   display: flex;
   margin-top: 25px;
   flex-direction: column;
+  
 }
 
 .program-list-item-list-item{
@@ -303,6 +304,8 @@ box-shadow: -5px 8px 26px rgba(0, 0, 0, 0.08);
 .program-list-item-list-item-text{
   font-size: 18px;
   line-height: 1.556;
+  white-space: revert;
+  margin-top: 8px;
 }
 .choose-title{
   display: none;
