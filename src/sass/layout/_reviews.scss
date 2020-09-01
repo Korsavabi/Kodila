@@ -90,7 +90,10 @@
     margin-right: 10px;
   }
 }
-
+.reviews-title-list-item{
+  width: 200px;
+  margin: 0 auto;
+}
 @media screen and (max-width: 767px) {
   .reviews-graduates-list-t-d {
     display: none;
@@ -115,6 +118,7 @@
 
   .reviews-title-list-item {
     margin-right: 46px;
+    
   }
 
   .reviews-list-item-vk-svg {
