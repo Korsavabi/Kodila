@@ -1,69 +1,67 @@
-.button-hero{
-margin-bottom: 30px;
+.button-hero {
+  margin-bottom: 30px;
 }
 .btn {
-    margin-top: 30px;
-    text-transform: uppercase;
-    letter-spacing: 0.08em;
-    font-size: 12px;
-    font-weight: bold;
-    color: #fff;
-    background-color: $orange-button-color;
-    border: 1px solid $orange-button-color;
+  margin-top: 30px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 12px;
+  font-weight: bold;
+  color: #fff;
+  background-color: $orange-button-color;
+  border: 1px solid $orange-button-color;
+  background-color: $orange-button-color;
+  border: none;
+  padding: 15px 20px;
 
-    background-color: $orange-button-color;
-    border: none;
-    padding: 15px 20px;
-
-    transition: all 0.5s;
+  transition: all 0.5s;
 }
-.button-header{
-    margin: 0 auto;
-    margin-bottom: 0;
+.button-header {
+  margin: 0 auto;
+  margin-bottom: 0;
+  display: block;
+  background-color: transparent;
+  border: 1px solid $orange-button-color;
+  color: $orange-button-color;
+  &:hover {
+    background-color: $orange-button-color;
+    border: 1px solid rgba(0, 0, 0, 0.815);
+    color: $white-button-color;
+  }
+}
+.button-header-laptop {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .button {
+    margin: 0;
+  }
+  .button-header {
+    display: none;
+  }
+  .button-header-laptop {
     display: block;
+    margin: 0;
+    margin-right: 40px;
+    margin-bottom: 0;
     background-color: transparent;
     border: 1px solid $orange-button-color;
     color: $orange-button-color;
-    &:hover{
-        background-color: $orange-button-color;
-        border: 1px solid rgba(0, 0, 0, 0.815);
-        color: $white-button-color;
+    &:hover {
+      background-color: $orange-button-color;
+      border: 1px solid rgba(0, 0, 0, 0.815);
+      color: $white-button-color;
     }
+  }
 }
-.button-header-laptop{
-    display: none;
-}
-@media screen and (min-width: 768px){
-    .button{
-        margin: 0;
-    }
-    .button-header{
-        display: none;
-        
-    }
-    .button-header-laptop{
-        display: block;
-        margin: 0;
-        margin-right: 40px;
-        margin-bottom: 0;
-        background-color: transparent;
-        border: 1px solid $orange-button-color;
-        color: $orange-button-color;
-        &:hover{
-            background-color: $orange-button-color;
-            border: 1px solid rgba(0, 0, 0, 0.815);
-            color: $white-button-color;
-        }
-    }
-}
-@media screen and (min-width: 1356px){
-    .button{
-        padding: 27px 26px;
-    }
-    .registration .btn {
-        width: 354px;
-        margin-top: 80px;
-        height: 70px;
-        font-size: 14px;
-    }
+@media screen and (min-width: 1356px) {
+  .button {
+    padding: 27px 26px;
+  }
+  .registration .btn {
+    width: 354px;
+    margin-top: 80px;
+    height: 70px;
+    font-size: 14px;
+  }
 }
