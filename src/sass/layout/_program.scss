@@ -14,8 +14,7 @@
 }
 .program-title {
   color: $white-text-color;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 900;
+  font-weight: 800;
   font-size: 20px;
   line-height: 1.3;
   letter-spacing: 0.03em;
@@ -29,24 +28,22 @@
   margin-left: auto;
   padding-left: 20px;
   position: relative;
-  // border-left: 1px solid $white-text-color;
  &::before{
   position: absolute;
   content: "";
   display: block;
-  width: 1250px;
+  width: 1340px;
   background-color: #ffffff;
   transform: rotate(90deg);
   height: 1px;
-  top: 644px;
-  left: -626px;
+  top: 688px;
+  left: -671px;
   right: 0;
  }
 }
 
 .program-list-item {
   color: $white-text-color;
-  font-family: 'Montserrat', sans-serif;
   font-weight: 800;
   font-size: 14px;
   line-height: 2;
@@ -85,7 +82,6 @@ text-transform: uppercase;
 }
 .program-list-item-list-item-title {
   color: $orange-text-color;
-  font-family: 'Montserrat', sans-serif;
   font-weight: 800;
   font-size: 12px;
   line-height: 1.667;
@@ -93,6 +89,7 @@ text-transform: uppercase;
   display: flex;
   align-items: center;
   white-space: pre-line;
+  margin-top: 8px;
   &::before{
     display: block;
     content: "";
@@ -105,7 +102,6 @@ text-transform: uppercase;
 
 .program-list-item-list-item-text {
   color: $grey-text-color;
-  font-family: 'Montserrat', sans-serif;
   font-weight: 600;
   font-size: 12px;
   line-height: 1.667;
@@ -114,7 +110,6 @@ text-transform: uppercase;
 }
 .choose-title{
   color: #ffffff;
-  font-family: "Montserrat", sans-serif;
   font-weight: 900;
   font-size: 20px;
   line-height: 1.3;
@@ -130,7 +125,7 @@ counter-reset: section-two;
 bottom: -280px;
 left: 20px;
 padding-top: 49px;
-padding-right: 14px;
+padding-right: 34px;
 padding-bottom: 20px;
 padding-left: 40px;
 background-color: $white-background-color;

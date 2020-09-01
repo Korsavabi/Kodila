@@ -30,7 +30,6 @@
 .menu-burger-icon{
     width: 20px;
     height: 20px;
-    fill: black;
     z-index: 6;
 }
 .menu-burger-open{
@@ -54,6 +53,7 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    padding-top: 128px;
     &.is-open{
         display: block;
     }
@@ -66,17 +66,18 @@
     display: flex;
     flex-direction: column;
     align-items: start;
-    margin-bottom: 50px;
-
+    padding-bottom: 80px;
 }
 .header-navigation-list-item-link{
-    font-family: 'Montserrat', sans-serif;
     font-weight: 800;
     font-size: 20px;
     line-height: 1.8;
     letter-spacing: 0.03em;
     color: $white-text-color;
     &:hover{
+        color: $orange-text-color;
+    }
+    &:nth-child(2){
         color: $orange-text-color;
     }
 }
@@ -170,7 +171,6 @@
     }
 }
 .header-navigation-list-item-link{
-    font-family: 'Montserrat', sans-serif;
     font-weight: 800;
     font-size: 14px;
     line-height: 1.214;
