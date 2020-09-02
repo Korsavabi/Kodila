@@ -94,6 +94,22 @@
   width: 90px;
   margin: 0 auto;
 }
+.arrow-left{
+  width: 27px;
+  height: 16px;
+  background-image: url('./../images/svg/Arrow-1.svg');
+  &:hover{
+    background-color: white;
+  }
+}
+.arrow-right{
+  width: 27px;
+  height: 16px;
+  background-image: url('./../images/svg/Arrow-2.svg');
+  &:hover{
+    background-color: white;
+  }
+}
 @media screen and (max-width: 767px) {
   .reviews-graduates-list-t-d {
     display: none;
@@ -142,6 +158,28 @@
     padding-left: 0;
     padding-right: 0;
     white-space: unset;
+  }
+  .arrow-left{
+    position: absolute;
+    top: 155px;
+    left: -30px;
+    width: 27px;
+    height: 16px;
+    background-image: url('./../images/svg/Arrow-1.svg');
+    &:hover{
+      background-color: white;
+    }
+  }
+  .arrow-right{
+    position: absolute;
+    top: 155px;
+    right: -30px;
+    width: 27px;
+    height: 16px;
+    background-image: url('./../images/svg/Arrow-2.svg');
+    &:hover{
+      background-color: white;
+    }
   }
 }
 
