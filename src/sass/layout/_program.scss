@@ -4,7 +4,7 @@
   padding-bottom: 341px;
   background-image: url("./../images/mobile-img/program1x.png");
   background-repeat: no-repeat;
-  background-position: 250px 1150px;
+  background-position: 230px 1290px;
   background-size: 30%;
 }
 @media screen and (min-device-pixrl-ration: 2), screen and (min-resolution: 192dpi),  screen and (min-resolution: 2dppx), screen and (min-width: 480px){
@@ -32,7 +32,7 @@
   position: absolute;
   content: "";
   display: block;
-  height: 90%;
+  height: 91%;
   border-left: 1px solid #ffffff;
   top: 22px;
   left: -2px;
@@ -150,7 +150,7 @@ text-transform: uppercase;
     width: 100%;
     padding-left: 97px;
     &::before {
-      height: 85%;
+      height: 86%;
       top: 22px;
       left: 75px;
     }
@@ -198,7 +198,7 @@ text-transform: uppercase;
   .program{
     padding-bottom: 363px;
     background-image: url("./../images/header-img/program1x.png");
-    background-position: -100px 530px;
+    background-position: -100px 580px;
     position: relative;
     background-size: 50%;
   }
