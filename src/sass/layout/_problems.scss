@@ -41,7 +41,7 @@
 
 .problems-list-item::before {
   counter-increment: section-one;
-  content: url('./../images/svg/line.svg') '  '
+  content: '  '
     counter(section-one, decimal-leading-zero);
   position: absolute;
   top: -20px;
@@ -59,7 +59,17 @@
   letter-spacing: 0.08em;
   color: $orange-text-color;
 }
-
+.problems-list-item-text::before {
+  display: flex;
+  flex-wrap: wrap;
+  content: "";
+  background-color: orangered;
+  height: 2px;
+  width: 20px;
+  position: absolute;
+  top: -13px;
+  left: -30px;
+}
 .problems-list-item-text {
   font-weight: 800;
   font-size: 14px;

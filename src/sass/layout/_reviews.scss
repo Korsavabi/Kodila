@@ -31,10 +31,11 @@
   margin-bottom: 27px;
 }
 
-.reviews-list-item-vk-svg {
+.reviews-list-item-fb-svg {
+  margin-bottom: 20px;
+  fill: #3F51B5;
   width: 30px;
   height: 30px;
-  margin-bottom: 20px;
 }
 
 .reviews-title-name {
@@ -93,6 +94,23 @@
   width: 90px;
   margin: 0 auto;
 }
+.carusel-prev-icon {
+  position: absolute;
+  left: 585px;
+  top: 18px; }
+  .owl-prev{
+    // transform: rotate(180deg);
+    position: absolute;
+    left: 733px;
+    top: 18px; }
+.arrow-left{
+  width: 25px;
+  height: 1px;
+}
+.arrow-right{
+  width: 25px;
+  height: 1px;
+}
 @media screen and (max-width: 767px) {
   .reviews-graduates-list-t-d {
     display: none;
@@ -118,11 +136,8 @@
   .reviews-title-list-item {
     margin-right: 46px;
   }
-
   .reviews-list-item-fb-svg {
     margin-bottom: 0;
-    width: 30px;
-    height: 30px;
   }
 
   .reviews-title-list-item-tablet {

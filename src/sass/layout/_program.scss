@@ -6,7 +6,7 @@
   background-image: url("./../images/mobile-img/program1x.png");
   background-repeat: no-repeat;
   background-position: 100% 82.29%;
-  background-size: 50%;
+  background-size: 30%;
 }
 @media screen and (min-device-pixrl-ration: 2), screen and (min-resolution: 192dpi),  screen and (min-resolution: 2dppx), screen and (min-width: 480px){
   .program{
@@ -35,7 +35,7 @@
   display: block;
   height: 92%;
   border-left: 1px solid #ffffff;
-  top: 18px;
+  top: 22px;
   left: -2px;
   right: 0;
   bottom: 0;
@@ -146,8 +146,8 @@ text-transform: uppercase;
     width: 100%;
     padding-left: 97px;
     &::before {
-      height: 86%;
-      top: 16px;
+      height: 87%;
+      top: 22px;
       left: 75px;
     }
 }
@@ -176,6 +176,9 @@ text-transform: uppercase;
     top: calc(100% - 200px);
   }
 }
+.program .problems-list-item-text{
+  white-space: break-spaces;
+}
 @media screen and(min-width: 1356px){
   .program-line-list{
     border-top: 1px solid $white-text-color;
@@ -188,7 +191,7 @@ text-transform: uppercase;
     background-image: url("./../images/header-img/program1x.png");
     background-position: -70px 75%;
     position: relative;
-    background-size: 40%;
+    background-size: 38%;
   }
   @media screen and (min-device-pixrl-ration: 2), screen and (min-resolution: 192dpi),  screen and (min-resolution: 2dppx){
     .program{
@@ -214,7 +217,7 @@ text-transform: uppercase;
     }
 }
 .program-list-item{
-  width: calc((100% - 30px * 3) / 5);
+  width: calc((100% - 30px * 4) / 5);
   display: flex;
 }
 .program-list-item-title{
@@ -237,10 +240,17 @@ text-transform: uppercase;
   line-height: 1.65;
 }
 .program-list-item-list-item-text{
+  font-weight: 500;
   font-size: 18px;
   line-height: 1.556;
   white-space: revert;
   margin-top: 8px;
+  color: #B9B9B9;
+
+opacity: 0.5;
+}
+.program-list-item-list-item-text-span{
+  padding-right: 120px;
 }
 .choose-title{
   display: none;
