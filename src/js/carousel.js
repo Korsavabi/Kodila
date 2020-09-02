@@ -12,7 +12,6 @@ jQuery(document).ready(function($) {
         owlJq.owlCarousel({
             loop: true,
             margin: 10,
-            responsiveClass: true,
             nav: false,
             dots: false,
             responsive: {

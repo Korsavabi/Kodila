@@ -81,6 +81,7 @@
 }
 
 .reviews-graduates-slider {
+  position: relative;
   display: flex;
   justify-content: center;
 }
@@ -94,10 +95,6 @@
   width: 90px;
   margin: 0 auto;
 }
-.carusel-prev-icon {
-  position: absolute;
-  left: 585px;
-  top: 18px; }
   .owl-prev{
     // transform: rotate(180deg);
     position: absolute;

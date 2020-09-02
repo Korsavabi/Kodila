@@ -5,7 +5,7 @@
   position: relative;
   background-image: url("./../images/mobile-img/program1x.png");
   background-repeat: no-repeat;
-  background-position: 100% 82.29%;
+  background-position: 200px 1500px;
   background-size: 30%;
 }
 @media screen and (min-device-pixrl-ration: 2), screen and (min-resolution: 192dpi),  screen and (min-resolution: 2dppx), screen and (min-width: 480px){
@@ -127,7 +127,7 @@ text-transform: uppercase;
   .program{
     padding-bottom: 392px;
     background-image: url("./../images/tablet-img/program1x.png");
-    background-position: 100% 75%;;
+    background-position: 400px 900px;
     background-size: 50%;
   }
   @media screen and (min-device-pixrl-ration: 2), screen and (min-resolution: 192dpi),  screen and (min-resolution: 2dppx){
@@ -189,9 +189,9 @@ text-transform: uppercase;
   .program{
     padding-bottom: 363px;
     background-image: url("./../images/header-img/program1x.png");
-    background-position: -70px 75%;
+    background-position: -100px 530px;
     position: relative;
-    background-size: 38%;
+    background-size: 50%;
   }
   @media screen and (min-device-pixrl-ration: 2), screen and (min-resolution: 192dpi),  screen and (min-resolution: 2dppx){
     .program{
