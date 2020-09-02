@@ -131,7 +131,7 @@ text-transform: uppercase;
   .program{
     padding-bottom: 392px;
     background-image: url("./../images/tablet-img/program1x.png");
-    background-position: 400px 900px;
+    background-position: 400px 930px;
     background-size: 50%;
   }
   @media screen and (min-device-pixrl-ration: 2), screen and (min-resolution: 192dpi),  screen and (min-resolution: 2dppx){
@@ -267,6 +267,10 @@ opacity: 0.5;
 }
 .program .problems-list{
   top: 160px;
+  padding-top: 113px;
+    padding-right: 66px;
+    padding-bottom: 62px;
+    padding-left: 84px;
 }
  .program .problems-list-item{
    width: calc((100% - 40px * 2) / 3);

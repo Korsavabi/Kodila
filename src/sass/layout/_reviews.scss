@@ -17,8 +17,6 @@
 }
 
 .reviews-title-list {
-  background-color: $white-background-color;
-  box-shadow: -5px 8px 26px rgba(0, 0, 0, 0.04);
   text-align: center;
   padding-top: 20px;
   padding-bottom: 30px;
@@ -80,6 +78,7 @@
 }
 
 .reviews-graduates-slider {
+  margin-top: 30px;
   position: relative;
   display: flex;
   justify-content: center;
@@ -95,6 +94,9 @@
   margin: 0 auto;
 }
 .arrow-left{
+  position: absolute;
+  bottom: -20px;
+  left: 90px;
   width: 27px;
   height: 16px;
   background-image: url('./../images/svg/Arrow-1.svg');
@@ -103,12 +105,19 @@
   }
 }
 .arrow-right{
+  position: absolute;
+  bottom: -20px;
+    right: 90px;
   width: 27px;
   height: 16px;
   background-image: url('./../images/svg/Arrow-2.svg');
   &:hover{
     background-color: white;
   }
+}
+.reviews-box-shadow{
+  background-color: $white-background-color;
+  box-shadow: -5px 8px 26px rgba(0, 0, 0, 0.04);
 }
 @media screen and (max-width: 767px) {
   .reviews-graduates-list-t-d {
