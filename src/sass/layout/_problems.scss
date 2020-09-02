@@ -1,8 +1,12 @@
 .problems {
-  position: relative;
+
   background-color: $black-text-color;
   height: 545px;
   padding-top: 50px;
+}
+
+.problems-block {
+  position: relative;
 }
 
 .porblems-title {
@@ -17,7 +21,7 @@
 }
 .problems-list {
   position: absolute;
-  top: 205px;
+  top: 167px;
   left: 50%;
   transform: translateX(-50%);
   padding-top: 49px;
@@ -25,7 +29,7 @@
   padding-bottom: 20px;
   padding-left: 30px;
   background-color: $white-background-color;
-  // width: calc(100% - 40px);
+  width: 100%;
 
   box-shadow: -5px 8px 26px rgba(0, 0, 0, 0.04);
   counter-reset: section-one;
@@ -36,7 +40,7 @@
   list-style-type: none;
   @media screen and (max-width: 767px) {
     & + & {
-      margin-top: 39px;
+      margin-top: 53px;
     }
   }
 }
@@ -46,9 +50,9 @@
   content: '  '
     counter(section-one, decimal-leading-zero);
   position: absolute;
-  top: -20px;
-  left: 0px;
-  margin-left: 20px;
+  top: -26px;
+  left: 33px;
+
 }
 
 .porblems-title-accent {
@@ -70,8 +74,8 @@
   height: 2px;
   width: 20px;
   position: absolute;
-  top: -13px;
-  left: -10px;
+  top: -20px;
+  left: 2px;
 }
 .problems-list-item-text {
   font-weight: 800;
@@ -94,13 +98,13 @@
   }
 
   .problems-list {
-    top: 188px;
+    top: 130px;
     padding-top: 59px;
     padding-right: 46px;
     padding-bottom: 26px;
     padding-left: 96px;
 
-    // width: calc(100% - 80px);
+  
     display: flex;
     flex-wrap: wrap;
   }
@@ -109,7 +113,7 @@
     @media screen and (max-width: 1355px) {
       width: calc((100% - 40px) / 2);
       &:not(:nth-child(-n + 2)) {
-        margin-top: 37px;
+        margin-top: 57px;
       }
       &:not(:nth-child(2n + 1)) {
         margin-left: 40px;
@@ -129,13 +133,12 @@
   }
 
   .problems-list {
-    top: 348px;
+    top: 270px;
     padding-top: 113px;
     padding-right: 112px;
     padding-bottom: 62px;
     padding-left: 114px;
     background-color: $white-background-color;
-    // width: calc(100% - 183px * 2);
   }
 
   .problems-list-item {
@@ -148,7 +151,10 @@
       margin-left: 30px;
     }
     &:before {
-      top: -30px;
+      top: -39px;
+    }
+    &-text:before {
+      top: -24px;
     }
   }
 

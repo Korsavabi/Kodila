@@ -1,8 +1,7 @@
 .program {
   background-color: $black-background-color;
   padding-top: 50px;
-  padding-bottom: 287px;
-  position: relative;
+  padding-bottom: 341px;
   background-image: url("./../images/mobile-img/program1x.png");
   background-repeat: no-repeat;
   background-position: 100% 82.29%;
@@ -121,7 +120,12 @@ text-transform: uppercase;
   margin-bottom: 30px;
 }
 .program .problems-list{
-  top: calc(100% - 300px);
+  top: 75px;
+}
+@media screen and (max-width: 1355px){
+.program .problems-list-item:nth-child(5) {
+  width: 170px;
+}
 }
 @media screen and(min-width: 768px){
   .program{
@@ -168,13 +172,18 @@ text-transform: uppercase;
   .choose-title{
     position: absolute;
     white-space: initial;
-    bottom: 200px;
+    bottom: -270px;
     left: 25%;
     font-size: 26px;
   }
   .program .problems-list{
-    top: calc(100% - 200px);
+    top: 263px;
   }
+@media screen and (max-width: 1355px){
+.program .problems-list-item:nth-child(6){
+  margin-left: 122px;
+}
+}
 }
 .program .problems-list-item-text{
   white-space: break-spaces;
@@ -197,6 +206,7 @@ text-transform: uppercase;
     .program{
     background-image: url("./../images/header-img/program2x.png");
   }
+
 }
   .program-line::before {
     top: -7px;
@@ -256,6 +266,15 @@ opacity: 0.5;
   display: none;
 }
 .program .problems-list{
-  top: calc(100% - 300px);
+  top: 160px;
 }
+ .program .problems-list-item{
+   width: calc((100% - 40px * 2) / 3);
+ }
+// .program .problems-list-item:not(:nth-child(-n + 2)) {
+//   margin-top: 57px;
+// }
+// .program .problems-list-item:not(:nth-child(2n + 1)) {
+//   margin-left: 40px;
+// }
 }
