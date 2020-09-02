@@ -33,7 +33,7 @@
 
 .reviews-list-item-fb-svg {
   margin-bottom: 20px;
-  fill: #3F51B5;
+  fill: #3f51b5;
   width: 30px;
   height: 30px;
 }
@@ -65,7 +65,6 @@
   font-weight: 500;
   font-size: 12px;
   line-height: 1.67;
-  white-space: pre-line;
 
   color: $secondary-black-text-color;
 }
@@ -94,19 +93,6 @@
 .reviews-title-list-item {
   width: 90px;
   margin: 0 auto;
-}
-  .owl-prev{
-    // transform: rotate(180deg);
-    position: absolute;
-    left: 733px;
-    top: 18px; }
-.arrow-left{
-  width: 25px;
-  height: 1px;
-}
-.arrow-right{
-  width: 25px;
-  height: 1px;
 }
 @media screen and (max-width: 767px) {
   .reviews-graduates-list-t-d {
