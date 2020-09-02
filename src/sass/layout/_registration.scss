@@ -72,6 +72,9 @@
             max-width: 390px;
             margin: 0 auto;
         }
+        & .registration-form-input {
+            font-size: 20px;
+        }
         @media screen and (min-device-pixrl-rotation: 2),
         screen and (min-resolution: 192dpi),
         screen and (min-resolution: 2dppx) {
