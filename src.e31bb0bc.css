@@ -657,7 +657,6 @@ a {
   }
 }
 .hero {
-  padding-top: 100px;
   padding-bottom: 49.5px;
 }
 
@@ -788,6 +787,7 @@ a {
   }
 
   .hero {
+    padding-top: 30px;
     padding-bottom: 50px;
   }
 
@@ -1336,7 +1336,7 @@ a {
   padding-bottom: 341px;
   background-image: url("/program1x.cfc91ae3.png");
   background-repeat: no-repeat;
-  background-position: 250px 1150px;
+  background-position: 230px 1290px;
   background-size: 30%;
 }
 
@@ -1365,7 +1365,7 @@ a {
   position: absolute;
   content: "";
   display: block;
-  height: 90%;
+  height: 91%;
   border-left: 1px solid #ffffff;
   top: 22px;
   left: -2px;
@@ -1488,7 +1488,7 @@ a {
     padding-left: 97px;
   }
   .program-list::before {
-    height: 85%;
+    height: 86%;
     top: 22px;
     left: 75px;
   }
@@ -1546,7 +1546,7 @@ a {
   .program {
     padding-bottom: 363px;
     background-image: url("/program1x.c0500149.png");
-    background-position: -100px 530px;
+    background-position: -100px 580px;
     position: relative;
     background-size: 50%;
   }
@@ -1645,7 +1645,7 @@ a {
   }
 }
 .teacher {
-  padding-top: 300px;
+  padding-top: 310px;
   padding-bottom: 25px;
 }
 
@@ -2071,8 +2071,8 @@ a {
 
 .arrow-left {
   position: absolute;
-  bottom: -20px;
-  left: 90px;
+  bottom: -65px;
+  left: -10px;
   width: 27px;
   height: 16px;
   background-image: url("/Arrow-1.568ecca0.svg");
@@ -2083,8 +2083,8 @@ a {
 
 .arrow-right {
   position: absolute;
-  bottom: -20px;
-  right: 90px;
+  bottom: -65px;
+  right: -10px;
   width: 27px;
   height: 16px;
   background-image: url("/Arrow-2.4fea45ee.svg");
@@ -2150,7 +2150,7 @@ a {
   .arrow-left {
     position: absolute;
     top: 155px;
-    left: -30px;
+    left: -50px;
     width: 27px;
     height: 16px;
     background-image: url("/Arrow-1.568ecca0.svg");
@@ -2162,7 +2162,7 @@ a {
   .arrow-right {
     position: absolute;
     top: 155px;
-    right: -30px;
+    right: -50px;
     width: 27px;
     height: 16px;
     background-image: url("/Arrow-2.4fea45ee.svg");
@@ -2240,23 +2240,11 @@ a {
   margin-top: 30px;
 }
 
-.btn {
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  font-size: 12px;
-  font-weight: bold;
-  color: #fff;
-  border: 1px solid #ff6b09;
-  background-color: #ff6b09;
-  border: none;
-  padding: 15px 5px;
-  cursor: pointer;
-  transition: all 0.5s;
-}
-
 .button-header {
   margin: 0 auto;
   margin-bottom: 0;
+  font-size: 12px;
+  font-weight: bold;
   display: block;
   background-color: transparent;
   border: 1px solid #ff6b09;
@@ -2269,6 +2257,20 @@ a {
   background-color: #ff6b09;
   border: 1px solid rgba(0, 0, 0, 0.815);
   color: #ffffff;
+}
+
+.btn {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 12px;
+  font-weight: bold;
+  color: #fff;
+  border: 1px solid #ff6b09;
+  background-color: #ff6b09;
+  border: none;
+  padding: 15px 5px;
+  cursor: pointer;
+  transition: all 0.5s;
 }
 
 .button-header-laptop {
