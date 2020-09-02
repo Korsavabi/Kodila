@@ -1,10 +1,16 @@
 .button-hero {
   margin-bottom: 30px;
+<<<<<<< Updated upstream
 }
 .registration button{
   margin-top: 30px;
 }
 .btn {
+=======
+}
+.btn {
+  margin-top: 30px;
+>>>>>>> Stashed changes
   text-transform: uppercase;
   letter-spacing: 0.08em;
   font-size: 12px;
@@ -12,6 +18,7 @@
   color: #fff;
   background-color: $orange-button-color;
   border: 1px solid $orange-button-color;
+<<<<<<< Updated upstream
   background-color: $orange-button-color;
   border: none;
   padding: 15px 5px;
@@ -31,6 +38,28 @@
     color: $white-button-color;
   }
 }
+=======
+
+  background-color: $orange-button-color;
+  border: none;
+  padding: 15px 20px;
+
+  transition: all 0.5s;
+}
+.button-header {
+  margin: 0 auto;
+  margin-bottom: 0;
+  display: block;
+  background-color: transparent;
+  border: 1px solid $orange-button-color;
+  color: $orange-button-color;
+  &:hover {
+    background-color: $orange-button-color;
+    border: 1px solid rgba(0, 0, 0, 0.815);
+    color: $white-button-color;
+  }
+}
+>>>>>>> Stashed changes
 .button-header-laptop {
   display: none;
 }
@@ -57,8 +86,13 @@
   }
 }
 @media screen and (min-width: 1356px) {
+<<<<<<< Updated upstream
   .btn{
     padding: 15px 20px;
+=======
+  .button {
+    padding: 27px 26px;
+>>>>>>> Stashed changes
   }
   .registration .btn {
     width: 354px;
@@ -67,3 +101,83 @@
     font-size: 14px;
   }
 }
+<<<<<<< Updated upstream
+=======
+
+// .glow-on-hover {
+//   width: 220px;
+//   height: 50px;
+//   border: none;
+//   outline: none;
+//   color: #fff;
+//   background-color: $orange-background-color;
+//   cursor: pointer;
+//   position: relative;
+//   z-index: 0;
+//   border-radius: 10px;
+// }
+
+// .glow-on-hover:before {
+//   content: '';
+//   background: linear-gradient(
+//     45deg,
+//     #ff0000,
+//     #ff7300,
+//     #fffb00,
+//     #48ff00,
+//     #00ffd5,
+//     #002bff,
+//     #7a00ff,
+//     #ff00c8,
+//     #ff0000
+//   );
+//   position: absolute;
+//   top: -2px;
+//   left: -2px;
+//   background-size: 400%;
+//   z-index: -1;
+//   filter: blur(5px);
+//   width: calc(100% + 4px);
+//   height: calc(100% + 4px);
+//   animation: glowing 20s linear infinite;
+//   opacity: 0;
+//   transition: opacity 0.3s ease-in-out;
+//   border-radius: 10px;
+// }
+
+// .glow-on-hover:active {
+//   color: #000;
+// }
+
+// .glow-on-hover:active:after {
+//   background: transparent;
+// }
+
+// .glow-on-hover:hover:before {
+//   opacity: 1;
+// }
+
+// .glow-on-hover:after {
+//   z-index: -1;
+//   content: '';
+//   position: absolute;
+//   width: 100%;
+//   height: 100%;
+//   background: #111;
+//   left: 0;
+//   top: 0;
+//   border-radius: 10px;
+// }
+
+// @keyframes glowing {
+//   0% {
+//     background-position: 0 0;
+//   }
+//   50% {
+//     background-position: 400% 0;
+//   }
+//   100% {
+//     background-position: 0 0;
+//   }
+// }
+>>>>>>> Stashed changes
