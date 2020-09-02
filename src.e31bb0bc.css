@@ -403,10 +403,12 @@ body {
 
 img {
   display: block;
+  height: auto;
 }
 
 html {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 *,
@@ -702,7 +704,7 @@ a {
   width: 250px;
   height: 300px;
   background-size: 85%, 100%;
-  background-position: 70% 25%;
+  background-position: 70% 45%;
   background-image: url("/headerx1.e529bcb5.png"), url("/headerbgx1.303b09b6.png");
 }
 
@@ -852,6 +854,7 @@ a {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    margin-top: 100px;
   }
 }
 @media screen and (min-width: 1356px) {
@@ -889,7 +892,7 @@ a {
     white-space: pre-line;
     background-color: white;
     width: 366px;
-    top: -90px;
+    top: -84px;
     left: 90px;
   }
   .hero-list-item-text::before {
@@ -1251,6 +1254,7 @@ a {
     padding-right: 48px;
     padding-left: 48px;
     box-shadow: 0px 8px 26px rgba(0, 0, 0, 0.1);
+    transition: all 0.7s;
     width: calc((100% - 20px * 2) / 3);
   }
   .work-list-item:nth-child(1) {
@@ -1990,6 +1994,11 @@ a {
   margin-right: 10px;
 }
 
+.reviews-title-list-item {
+  width: 90px;
+  margin: 0 auto;
+}
+
 @media screen and (max-width: 767px) {
   .reviews-graduates-list-t-d {
     display: none;
@@ -2104,8 +2113,11 @@ a {
   margin-bottom: 30px;
 }
 
-.btn {
+.registration button {
   margin-top: 30px;
+}
+
+.btn {
   text-transform: uppercase;
   letter-spacing: 0.08em;
   font-size: 12px;
@@ -2115,7 +2127,7 @@ a {
   border: 1px solid #ff6b09;
   background-color: #ff6b09;
   border: none;
-  padding: 15px 20px;
+  padding: 15px 5px;
   transition: all 0.5s;
 }
 
@@ -2162,8 +2174,8 @@ a {
   }
 }
 @media screen and (min-width: 1356px) {
-  .button {
-    padding: 27px 26px;
+  .btn {
+    padding: 15px 20px;
   }
 
   .registration .btn {

@@ -139,7 +139,8 @@ jQuery(document).ready(function ($) {
       owlJq.owlCarousel({
         loop: true,
         margin: 10,
-        nav: false,
+        nav: true,
+        navText: ["<p class='arrow-left'></p>", "<p class='arrow-right'></p>"],
         dots: false,
         responsive: {
           0: {
@@ -210,7 +211,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "55749" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "62095" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
