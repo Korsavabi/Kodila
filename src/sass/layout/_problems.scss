@@ -12,7 +12,9 @@
   letter-spacing: 0.03em;
   color: $white-text-color;
 }
-
+.problems-block{
+  display: block;
+}
 .problems-list {
   position: absolute;
   top: 205px;
@@ -23,7 +25,7 @@
   padding-bottom: 20px;
   padding-left: 30px;
   background-color: $white-background-color;
-  width: calc(100% - 40px);
+  // width: calc(100% - 40px);
 
   box-shadow: -5px 8px 26px rgba(0, 0, 0, 0.04);
   counter-reset: section-one;
@@ -46,6 +48,7 @@
   position: absolute;
   top: -20px;
   left: 0px;
+  margin-left: 20px;
 }
 
 .porblems-title-accent {
@@ -68,7 +71,7 @@
   width: 20px;
   position: absolute;
   top: -13px;
-  left: -30px;
+  left: -10px;
 }
 .problems-list-item-text {
   font-weight: 800;
@@ -97,7 +100,7 @@
     padding-bottom: 26px;
     padding-left: 96px;
 
-    width: calc(100% - 80px);
+    // width: calc(100% - 80px);
     display: flex;
     flex-wrap: wrap;
   }
@@ -132,7 +135,7 @@
     padding-bottom: 62px;
     padding-left: 114px;
     background-color: $white-background-color;
-    width: calc(100% - 183px * 2);
+    // width: calc(100% - 183px * 2);
   }
 
   .problems-list-item {
