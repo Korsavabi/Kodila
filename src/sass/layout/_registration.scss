@@ -36,6 +36,7 @@
         background: transparent;
         border: none;
         border: 1px solid #fff;
+        outline-color: $orange-button-color;
     }
     &-form-input:not(:nth-child(-n+1)) {
         margin-top: 30px;
